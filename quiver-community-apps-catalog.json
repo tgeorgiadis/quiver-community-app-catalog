@@ -509,6 +509,22 @@
         "decompilation",
         "super smash bros"
       ]
+    },
+    {
+      "name": "Harvest Moon 64 (Recomp)",
+      "repository": "HarvestMoon64Recomp/HarvestMoon64Recomp",
+      "folderName": "HarvestMoon64-Recomp",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/HarvestMoon64Recomp/HarvestMoon64Recomp/refs/heads/main/icons/512.png",
+      "preferredVersion": null,
+      "tags": [
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "recomp",
+        "recompilation",
+        "harvest moon"
+      ]
     }
   ]
 }
