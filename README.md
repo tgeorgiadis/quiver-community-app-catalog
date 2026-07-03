@@ -2,41 +2,49 @@
 
 Official community-maintained app catalog for [Quiver](https://github.com/tgeorgiadis/quiver).
 
-Fresh Quiver installs subscribe to this list automatically as **Quiver Community App Catalog**. Your local `apps.json` is your library; use **App Catalog → Review** to add apps from this catalog deliberately.
+Fresh Quiver installs discover these lists automatically via the remote index. Your local `apps.json` is your library; use **App Catalog → Review** to add apps from a list deliberately.
 
-## Catalog file
+## Remote index
 
-- **File:** [`quiver-community-apps-catalog.json`](quiver-community-apps-catalog.json)
-- **Raw URL:** `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/quiver-community-apps-catalog.json`
+Quiver loads this URL on startup:
 
-```json
-{
-  "version": "1.0.0",
-  "apps": [
-    {
-      "name": "Example App",
-      "repository": "org/repo",
-      "folderName": "ExampleApp",
-      "installPath": null,
-      "appIconUrl": "https://example.com/icon.png",
-      "preferredVersion": null,
-      "tags": ["example"]
-    }
-  ]
-}
+`https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-lists/index.json`
+
+The index points to three topic lists:
+
+| List | Raw URL |
+|------|---------|
+| N64 Recomp Games | `.../community-app-lists/n64-recomp.json` |
+| Harbour Master Projects | `.../community-app-lists/harbour-master.json` |
+| Community Apps | `.../community-app-lists/general.json` |
+
+Full base: `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-lists/`
+
+## Repository layout
+
 ```
+community-app-lists/
+  index.json           # list registry (GUIDs + remote URLs)
+  n64-recomp.json      # N64 recompilation ports
+  harbour-master.json  # Harbour Masters decomp projects
+  general.json         # other community apps
+  README.md            # maintainer docs for this folder
+```
+
+See [`community-app-lists/README.md`](community-app-lists/README.md) for index format, list format, and version bump rules.
 
 ## Updating the catalog
 
-1. Edit `quiver-community-apps-catalog.json`.
-2. Bump the top-level **`version`** string whenever entries change (semver recommended).
-3. Commit and push to `main`.
+1. Edit the relevant list file under `community-app-lists/`.
+2. Bump that list's `"version"` string (semver recommended).
+3. Update the matching `"listVersion"` in `index.json` if needed.
+4. Commit and push to `main`.
 
-Quiver compares `version` on refresh and shows **Review changes** when it differs from the last acknowledged version.
+Quiver compares list versions on refresh and shows **Review changes** when a list differs from the last acknowledged version.
 
 ## Contributing
 
-Open a pull request with your app entry and a version bump. Each app needs:
+Open a pull request with your app entry in the appropriate list file and a version bump. Each app needs:
 
 - `name` — display name
 - `repository` — GitHub repo (`owner/name`)
@@ -45,3 +53,7 @@ Open a pull request with your app entry and a version bump. Each app needs:
 - `tags` — searchable tags (optional)
 
 Do not include user-local fields like `skippedUpdateVersion`.
+
+## Legacy monolithic catalog
+
+The old single-file catalog (`quiver-community-apps-catalog.json`) has been removed. If you subscribed to that URL manually, remove it in Quiver and rely on the default remote index flow instead.

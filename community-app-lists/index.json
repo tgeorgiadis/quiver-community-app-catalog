@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "lists": [
+    {
+      "id": "b4e8c2a1-3f5d-4e9b-8c7a-1d2e3f4a5b6c",
+      "name": "N64 Recomp Games",
+      "description": "N64 recompilation ports",
+      "remoteLocation": "https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-lists/n64-recomp.json",
+      "listVersion": "1.0.0"
+    },
+    {
+      "id": "c5f9d3b2-4a6e-5f0c-9d8b-2e3f4a5b6c7d",
+      "name": "Harbour Master Projects",
+      "description": "Shipwright, 2Ship, Ghostship, and related Harbour Masters decomp ports",
+      "remoteLocation": "https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-lists/harbour-master.json",
+      "listVersion": "1.0.0"
+    },
+    {
+      "id": "d6a0e4c3-5b7f-6a1d-0e9c-3f4a5b6c7d8e",
+      "name": "Community Apps",
+      "description": "Decomp ports, recreations, and other community apps",
+      "remoteLocation": "https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-lists/general.json",
+      "listVersion": "1.0.0"
+    }
+  ]
+}
