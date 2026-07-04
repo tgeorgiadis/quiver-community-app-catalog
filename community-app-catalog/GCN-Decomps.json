@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "apps": [
+    {
+      "name": "Animal Crossing (Decomp)",
+      "repository": "flyngmt/ACGC-PC-Port",
+      "folderName": "AnimalCrossing-Decomp",
+      "installPath": null,
+      "appIconUrl": "https://github.com/flyngmt.png?size=256",
+      "preferredVersion": null,
+      "tags": [
+        "gamecube",
+        "nintendo",
+        "gc",
+        "decomp",
+        "decompilation",
+        "animal crossing"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess [Dusklight] (Decomp)",
+      "repository": "TwilitRealm/dusklight",
+      "folderName": "TheLegendOfZeldaTwilightPrincess-Dusklight-Decomp",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/TwilitRealm/dusklight/refs/heads/main/res/icon.png",
+      "preferredVersion": null,
+      "tags": [
+        "gamecube",
+        "nintendo",
+        "gc",
+        "decomp",
+        "decompilation",
+        "zelda"
+      ]
+    }
+  ]
+}

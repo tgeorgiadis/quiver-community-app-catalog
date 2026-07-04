@@ -8,34 +8,61 @@ Fresh Quiver installs discover these lists automatically via the remote index. Y
 
 Quiver loads this URL on startup:
 
-`https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-lists/index.json`
+`https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/index.json`
 
-The index points to three topic lists:
+The index points to nine topic lists:
 
-| List | Raw URL |
-|------|---------|
-| N64 Recomp Games | `.../community-app-lists/n64-recomp.json` |
-| Harbour Master Projects | `.../community-app-lists/harbour-master.json` |
-| Community Apps | `.../community-app-lists/general.json` |
+| List | File |
+|------|------|
+| N64 Recomps | `community-app-catalog/N64-Recomps.json` |
+| N64 Decomps (Harbour Masters) | `community-app-catalog/N64-Decomps-HarbourMasters.json` |
+| N64 Decomps | `community-app-catalog/N64-Decomps.json` |
+| SNES Decomps | `community-app-catalog/SNES-Decomps.json` |
+| GBA Decomps | `community-app-catalog/GBA-Decomps.json` |
+| GCN Decomps | `community-app-catalog/GCN-Decomps.json` |
+| PSX Decomps | `community-app-catalog/PSX-Decomps.json` |
+| X360 Recomps | `community-app-catalog/X360-Recomps.json` |
+| General Game Recreations | `community-app-catalog/General-Game-Recreations.json` |
 
-Full base: `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-lists/`
+Full base: `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-catalog/`
 
 ## Repository layout
 
 ```
-community-app-lists/
-  index.json           # list registry (GUIDs + remote URLs)
-  n64-recomp.json      # N64 recompilation ports
-  harbour-master.json  # Harbour Masters decomp projects
-  general.json         # other community apps
-  README.md            # maintainer docs for this folder
+index.json                 # list registry (GUIDs + remote URLs)
+community-app-catalog/
+  N64-Recomps.json
+  N64-Decomps-HarbourMasters.json
+  N64-Decomps.json
+  SNES-Decomps.json
+  GBA-Decomps.json
+  GCN-Decomps.json
+  PSX-Decomps.json
+  X360-Recomps.json
+  General-Game-Recreations.json
+README.md
 ```
 
-See [`community-app-lists/README.md`](community-app-lists/README.md) for index format, list format, and version bump rules.
+## Index and list format
+
+**Index (`index.json`)** — each list entry has:
+
+- `id` — stable GUID (do not change after publish)
+- `name` — display name
+- `description` — short summary
+- `remoteLocation` — raw GitHub URL to the list file
+- `listVersion` — must match that list file's `"version"`
+
+**List files (`community-app-catalog/*.json`)** — each file has:
+
+- `version` — semver string; bump when apps change
+- `apps` — array of app entries
+
+When adding a new list file, add a matching entry to `index.json` with a new GUID and set `listVersion` to the file's `"version"`.
 
 ## Updating the catalog
 
-1. Edit the relevant list file under `community-app-lists/`.
+1. Edit the relevant list file under `community-app-catalog/` (pick the platform or topic that matches the app; use `General-Game-Recreations.json` for cross-platform recreations).
 2. Bump that list's `"version"` string (semver recommended).
 3. Update the matching `"listVersion"` in `index.json` if needed.
 4. Commit and push to `main`.
@@ -54,6 +81,76 @@ Open a pull request with your app entry in the appropriate list file and a versi
 
 Do not include user-local fields like `skippedUpdateVersion`.
 
-## Legacy monolithic catalog
+## Naming conventions
 
-The old single-file catalog (`quiver-community-apps-catalog.json`) has been removed. If you subscribed to that URL manually, remove it in Quiver and rely on the default remote index flow instead.
+### List files (`community-app-catalog/*.json`)
+
+Each file is one catalog list. Use PascalCase segments separated by hyphens:
+
+```
+{PlatformOrTopic}-{Recomps|Decomps|...}.json
+```
+
+| Pattern | Example |
+|---------|---------|
+| Platform recomp list | `N64-Recomps.json`, `X360-Recomps.json` |
+| Platform decomp list | `SNES-Decomps.json`, `PSX-Decomps.json`, `GCN-Decomps.json` |
+| Platform decomp with qualifier | `N64-Decomps-HarbourMasters.json` |
+| Cross-platform / topic list | `General-Game-Recreations.json` |
+
+Rules:
+
+- Use platform shorthand with no spaces (`N64`, `SNES`, `GBA`, `PSX`, `GCN`, `X360`).
+- Match the suffix to the list content (`Recomps` vs `Decomps`).
+- Filenames are case-sensitive in GitHub raw URLs — use the exact casing in `index.json` `remoteLocation` values.
+- Do not rename `community-app-catalog/` itself; it is part of every remote list URL.
+
+When adding a new list file, register it in `index.json` with a new GUID and matching `listVersion`.
+
+### App display `name`
+
+Human-readable title shown in Quiver:
+
+```
+{Title} [{Optional project name}] ({Recomp|Decomp|Recreation})
+```
+
+Examples:
+
+- `Banjo-Kazooie (Recomp)`
+- `Super Mario 64 [Ghostship] (Decomp)`
+- `Super Mario Bros. Remastered (Recreation)`
+
+### App `folderName`
+
+Install folder under Quiver's Apps directory. Use PascalCase with no spaces:
+
+```
+{GameTitle}[-{VariantOrProjectName}]-{Recomp|Decomp|Recreation}
+```
+
+Examples:
+
+| `name` | `folderName` |
+|--------|--------------|
+| Banjo-Kazooie (Recomp) | `BanjoKazooie-Recomp` |
+| Super Mario 64 [Ghostship] (Decomp) | `SuperMario64-Ghostship-Decomp` |
+| The Legend of Zelda: Ocarina of Time [Ship of Harkinian] (Decomp) | `LegendOfZeldaOcarinaOfTime-ShipOfHarkinian-Decomp` |
+| Super Mario Bros. Remastered (Recreation) | `SuperMarioBrosRemastered-Recreation` |
+
+Rules:
+
+- Strip punctuation from the title portion (no `:`, `'`, `.`, or `-` inside the title).
+- Suffix reflects the project type (`Recomp`, `Decomp`, or `Recreation`), not necessarily the list filename.
+- Add a middle segment when the display name includes a project in `[brackets]` (e.g. `[REDRIVER2]` → `-REDRIVER2`).
+- Keep names filesystem-safe: no spaces or slashes.
+
+### Choosing a list file
+
+| App type | List file |
+|----------|-----------|
+| N64 recompilation | `N64-Recomps.json` |
+| N64 decomp (Harbour Masters) | `N64-Decomps-HarbourMasters.json` |
+| N64 decomp (other) | `N64-Decomps.json` |
+| Other platform decomp/recomp | matching `{Platform}-Decomps.json` or `{Platform}-Recomps.json` |
+| Cross-platform recreation | `General-Game-Recreations.json` |

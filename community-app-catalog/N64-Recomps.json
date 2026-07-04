@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "apps": [
     {
       "name": "Banjo-Kazooie (Recomp)",
@@ -47,6 +47,22 @@
         "recomp",
         "recompilation",
         "bomberman"
+      ]
+    },
+    {
+      "name": "Castlevania: Legacy of Darkness (Recomp)",
+      "repository": "fliperama86/cvlod_recomp",
+      "folderName": "CastlevaniaLegacyofDarkness-Recomp",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/fliperama86/cvlod_recomp/refs/heads/main/src/main/lod_recomp.ico",
+      "preferredVersion": null,
+      "tags": [
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "recomp",
+        "recompilation",
+        "castlevania"
       ]
     },
     {
@@ -114,6 +130,38 @@
       ]
     },
     {
+      "name": "Harvest Moon 64 (Recomp)",
+      "repository": "HarvestMoon64Recomp/HarvestMoon64Recomp",
+      "folderName": "HarvestMoon64-Recomp",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/HarvestMoon64Recomp/HarvestMoon64Recomp/refs/heads/main/icons/512.png",
+      "preferredVersion": null,
+      "tags": [
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "recomp",
+        "recompilation",
+        "harvest moon"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask and Ocarina of Time (Recomp)",
+      "repository": "Zelda64Recomp/Zelda64Recomp",
+      "folderName": "TheLegendOfZeldaMajorasMaskAndOcarinaofTime-Recomp",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/refs/heads/dev/icons/512.png",
+      "preferredVersion": null,
+      "tags": [
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "recomp",
+        "recompilation",
+        "zelda"
+      ]
+    },
+    {
       "name": "Mario Kart 64 (Recomp)",
       "repository": "sonicdcer/MarioKart64Recomp",
       "folderName": "MarioKart64-Recomp",
@@ -127,7 +175,8 @@
         "recomp",
         "recompilation",
         "mario",
-        "mario kart"
+        "mario kart",
+        "racing"
       ]
     },
     {
@@ -195,6 +244,24 @@
       ]
     },
     {
+      "name": "Snowboard Kids 2 (Recomp)",
+      "repository": "cdlewis/snowboardkids2-recomp",
+      "folderName": "SnowboardKids2-Recomp",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/cdlewis/snowboardkids2-recomp/refs/heads/main/icons/512.png",
+      "preferredVersion": null,
+      "tags": [
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "recomp",
+        "recompilation",
+        "snowboarding",
+        "sports",
+        "snowboard kids"
+      ]
+    },
+    {
       "name": "Star Fox 64 (Recomp)",
       "repository": "sonicdcer/Starfox64Recomp",
       "folderName": "StarFox64-Recomp",
@@ -209,39 +276,6 @@
         "recompilation",
         "star fox"
       ]
-    },
-    {
-      "name": "The Legend of Zelda: Majora's Mask (Recomp)",
-      "repository": "Zelda64Recomp/Zelda64Recomp",
-      "folderName": "TheLegendOfZeldaMajorasMask-Recomp",
-      "installPath": null,
-      "appIconUrl": "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/refs/heads/dev/icons/512.png",
-      "preferredVersion": null,
-      "tags": [
-        "n64",
-        "nintendo",
-        "nintendo 64",
-        "recomp",
-        "recompilation",
-        "zelda"
-      ]
-    },
-    {
-      "name": "Harvest Moon 64 (Recomp)",
-      "repository": "HarvestMoon64Recomp/HarvestMoon64Recomp",
-      "folderName": "HarvestMoon64-Recomp",
-      "installPath": null,
-      "appIconUrl": "https://raw.githubusercontent.com/HarvestMoon64Recomp/HarvestMoon64Recomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
-      "tags": [
-        "n64",
-        "nintendo",
-        "nintendo 64",
-        "recomp",
-        "recompilation",
-        "harvest moon"
-      ]
     }
   ]
 }
-

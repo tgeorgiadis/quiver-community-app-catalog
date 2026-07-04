@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "apps": [
+    {
+      "name": "Super Mario Bros. Remastered (Recreation)",
+      "repository": "JHDev2006/Super-Mario-Bros.-Remastered-Public",
+      "folderName": "SuperMarioBrosRemastered-Recreation",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/main/icon.png",
+      "preferredVersion": null,
+      "tags": [
+        "nes",
+        "nintendo",
+        "recreation",
+        "mario"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Link's Awakening DX [HD Updated] (Recreation)",
+      "repository": "BigheadSMZ/Zelda-LA-DX-HD-Updated",
+      "folderName": "TheLegendOfZeldaLinksAwakeningDX-HDUpdated-Recreation",
+      "installPath": null,
+      "appIconUrl": "https://raw.githubusercontent.com/BigheadSMZ/Zelda-LA-DX-HD-Updated/refs/heads/main/icon/windows/Icon.ico",
+      "preferredVersion": null,
+      "tags": [
+        "gbc",
+        "gameboy color",
+        "nintendo",
+        "recreation",
+        "zelda"
+      ]
+    }
+  ]
+}
