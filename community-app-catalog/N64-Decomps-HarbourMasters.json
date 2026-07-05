@@ -1,13 +1,13 @@
 {
+  "name": "N64 Decomps (Harbour Masters)",
+  "description": "Ship of Harkinian, Ghostship, and other Harbour Masters decomp ports",
   "version": "1.0.0",
   "apps": [
     {
       "name": "The Legend of Zelda: Ocarina of Time [Ship of Harkinian] (Decomp)",
       "repository": "harbourmasters/shipwright",
       "folderName": "TheLegendOfZeldaOcarinaOfTime-ShipOfHarkinian-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Shipwright/refs/heads/develop/soh/SHIPOFHARKINIAN.ico",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -22,9 +22,7 @@
       "name": "The Legend of Zelda: Majora's Mask [2 Ship 2 Harkinian] (Decomp)",
       "repository": "harbourmasters/2ship2harkinian",
       "folderName": "TheLegendOfZeldaMajorasMask-2Ship2Harkinian-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/2ship2harkinian/refs/heads/develop/mm/windows/2SHIP2HARKINIAN.ico",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -39,9 +37,7 @@
       "name": "Mario Kart 64 [SpaghettiKart] (Decomp)",
       "repository": "harbourmasters/spaghettikart",
       "folderName": "MarioKart64-SpaghettiKart-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/SpaghettiKart/refs/heads/main/icon.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -57,9 +53,7 @@
       "name": "Star Fox 64 [Starship] (Decomp)",
       "repository": "harbourmasters/starship",
       "folderName": "StarFox64-Starship-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Starship/refs/heads/main/logo.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -74,9 +68,7 @@
       "name": "Super Mario 64 [Ghostship] (Decomp)",
       "repository": "harbourmasters/ghostship",
       "folderName": "SuperMario64-Ghostship-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Ghostship/refs/heads/develop/logo.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",

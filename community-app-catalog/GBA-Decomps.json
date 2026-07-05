@@ -1,13 +1,13 @@
 {
+  "name": "GBA Decomps",
+  "description": "Game Boy Advance decompilation ports",
   "version": "1.0.0",
   "apps": [
     {
       "name": "The Legend of Zelda: The Minish Cap (Decomp)",
       "repository": "MatheoVignaud/tmc",
       "folderName": "TheLegendOfZeldaTheMinishCap-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/MatheoVignaud/tmc/refs/heads/master/docs/doxygen/beanstalk-bg.png",
-      "preferredVersion": null,
       "tags": [
         "gba",
         "gameboy advance",

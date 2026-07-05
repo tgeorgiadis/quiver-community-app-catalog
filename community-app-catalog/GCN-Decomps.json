@@ -1,13 +1,13 @@
 {
-  "version": "1.0.0",
+  "name": "GCN Decomps",
+  "description": "Nintendo GameCube decompilation ports",
+  "version": "1.0.1",
   "apps": [
     {
       "name": "Animal Crossing (Decomp)",
       "repository": "flyngmt/ACGC-PC-Port",
       "folderName": "AnimalCrossing-Decomp",
-      "installPath": null,
-      "appIconUrl": "https://github.com/flyngmt.png?size=256",
-      "preferredVersion": null,
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/e7e0ee2ddc3636ac14f9ca563f15010e.jpg",
       "tags": [
         "gamecube",
         "nintendo",
@@ -21,9 +21,7 @@
       "name": "The Legend of Zelda: Twilight Princess [Dusklight] (Decomp)",
       "repository": "TwilitRealm/dusklight",
       "folderName": "TheLegendOfZeldaTwilightPrincess-Dusklight-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/TwilitRealm/dusklight/refs/heads/main/res/icon.png",
-      "preferredVersion": null,
       "tags": [
         "gamecube",
         "nintendo",

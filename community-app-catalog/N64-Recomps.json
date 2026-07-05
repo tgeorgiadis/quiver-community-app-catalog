@@ -1,13 +1,13 @@
 {
-  "version": "1.0.2",
+  "name": "N64 Recomps",
+  "description": "N64 recompilation ports",
+  "version": "1.0.3",
   "apps": [
     {
       "name": "Banjo-Kazooie (Recomp)",
       "repository": "BanjoRecomp/BanjoRecomp",
       "folderName": "BanjoKazooie-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/BanjoRecomp/BanjoRecomp/refs/heads/main/icons/app.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -21,9 +21,7 @@
       "name": "Bomberman 64 (Recomp)",
       "repository": "RevoSucks/BM64Recomp",
       "folderName": "Bomberman64-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/RevoSucks/BM64Recomp/refs/heads/master/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -37,9 +35,7 @@
       "name": "Bomberman Hero (Recomp)",
       "repository": "RevoSucks/BMHeroRecomp",
       "folderName": "BombermanHero-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/RevoSucks/BMHeroRecomp/refs/heads/master/icons/app.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -53,9 +49,7 @@
       "name": "Castlevania: Legacy of Darkness (Recomp)",
       "repository": "fliperama86/cvlod_recomp",
       "folderName": "CastlevaniaLegacyofDarkness-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/fliperama86/cvlod_recomp/refs/heads/main/src/main/lod_recomp.ico",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -69,9 +63,7 @@
       "name": "Chameleon Twist (Recomp)",
       "repository": "Rainchus/ChameleonTwist1-JP-Recomp",
       "folderName": "ChameleonTwist-Recomp",
-      "installPath": null,
       "appIconUrl": "https://cdn2.steamgriddb.com/icon/c1f22f4c38899f51f1ed3ce20120bbd9.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -85,9 +77,7 @@
       "name": "Dinosaur Planet (Recomp)",
       "repository": "DinosaurPlanetRecomp/dino-recomp",
       "folderName": "DinosaurPlanet-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/DinosaurPlanetRecomp/dino-recomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -101,9 +91,7 @@
       "name": "Dr. Mario 64 (Recomp)",
       "repository": "theboy181/drmario64_recomp_plus",
       "folderName": "DrMario64-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/theboy181/drmario64_recomp_plus/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -117,9 +105,7 @@
       "name": "Duke Nukem: Zero Hour (Recomp)",
       "repository": "sonicdcer/DNZHRecomp",
       "folderName": "DukeNukemZeroHour-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/sonicdcer/DNZHRecomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -133,9 +119,7 @@
       "name": "Harvest Moon 64 (Recomp)",
       "repository": "HarvestMoon64Recomp/HarvestMoon64Recomp",
       "folderName": "HarvestMoon64-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/HarvestMoon64Recomp/HarvestMoon64Recomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -149,9 +133,7 @@
       "name": "The Legend of Zelda: Majora's Mask and Ocarina of Time (Recomp)",
       "repository": "Zelda64Recomp/Zelda64Recomp",
       "folderName": "TheLegendOfZeldaMajorasMaskAndOcarinaofTime-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/refs/heads/dev/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -165,9 +147,7 @@
       "name": "Mario Kart 64 (Recomp)",
       "repository": "sonicdcer/MarioKart64Recomp",
       "folderName": "MarioKart64-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/sonicdcer/MarioKart64Recomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -180,12 +160,10 @@
       ]
     },
     {
-      "name": "Mega Man Legends (Recomp)",
+      "name": "Mega Man 64 (Recomp)",
       "repository": "MegaMan64Recomp/MegaMan64Recompiled",
-      "folderName": "MegaManLegends-Recomp",
-      "installPath": null,
+      "folderName": "MegaMan64-Recomp",
       "appIconUrl": "https://raw.githubusercontent.com/MegaMan64Recomp/MegaMan64Recompiled/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -199,9 +177,7 @@
       "name": "Mystical Ninja Starring Goemon (Recomp)",
       "repository": "klorfmorf/Goemon64Recomp",
       "folderName": "MysticalNinjaStarringGoemon-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/klorfmorf/Goemon64Recomp/refs/heads/dev/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -215,9 +191,7 @@
       "name": "Pokemon Stadium (Recomp)",
       "repository": "mstan/PokemonStadiumRecomp",
       "folderName": "PokemonStadium-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/mstan/PokemonStadiumRecomp/refs/heads/main/assets/carts/yellow.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -231,9 +205,7 @@
       "name": "Quest 64 (Recomp)",
       "repository": "Rainchus/Quest64-Recomp",
       "folderName": "Quest64-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/Rainchus/Quest64-Recomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -247,9 +219,7 @@
       "name": "Snowboard Kids 2 (Recomp)",
       "repository": "cdlewis/snowboardkids2-recomp",
       "folderName": "SnowboardKids2-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/cdlewis/snowboardkids2-recomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -265,9 +235,7 @@
       "name": "Star Fox 64 (Recomp)",
       "repository": "sonicdcer/Starfox64Recomp",
       "folderName": "StarFox64-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/sonicdcer/Starfox64Recomp/refs/heads/main/icons/512.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",

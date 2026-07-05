@@ -1,13 +1,13 @@
 {
+  "name": "PSX Decomps",
+  "description": "PlayStation decompilation ports",
   "version": "1.0.0",
   "apps": [
     {
       "name": "Driver 2 [REDRIVER2] (Decomp)",
       "repository": "OpenDriver2/REDRIVER2",
       "folderName": "Driver2-REDRIVER2-Decomp",
-      "installPath": null,
       "appIconUrl": "https://github.com/OpenDriver2.png?size=256",
-      "preferredVersion": null,
       "tags": [
         "psx",
         "ps1",

@@ -1,13 +1,13 @@
 {
+  "name": "N64 Decomps",
+  "description": "N64 decompilation ports",
   "version": "1.0.0",
   "apps": [
     {
       "name": "Perfect Dark (Decomp)",
       "repository": "fgsfdsfgs/perfect_dark",
       "folderName": "PerfectDark-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/perfect-dark-pc-port/perfect_dark/refs/heads/port/dist/linux/io.github.perfect_dark_pc_port.perfect_dark.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -21,9 +21,7 @@
       "name": "Super Mario 64 [Co-op DX] (Decomp)",
       "repository": "coop-deluxe/sm64coopdx",
       "folderName": "SuperMario64-CoopDX-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/coop-deluxe/sm64coopdx/refs/heads/main/res/icon.icon/Assets/icon.png",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",
@@ -37,9 +35,7 @@
       "name": "Super Smash Bros. [BattleShip] (Decomp)",
       "repository": "JRickey/BattleShip",
       "folderName": "SuperSmashBros-BattleShip-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/JRickey/BattleShip/refs/heads/main/assets/icon.ico",
-      "preferredVersion": null,
       "tags": [
         "n64",
         "nintendo",

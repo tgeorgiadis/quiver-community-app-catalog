@@ -1,13 +1,13 @@
 {
+  "name": "SNES Decomps",
+  "description": "Super Nintendo decompilation ports",
   "version": "1.0.0",
   "apps": [
     {
       "name": "Super Mario World (Decomp)",
       "repository": "snesrev/smw",
       "folderName": "SuperMarioWorld-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/snesrev/smw/refs/heads/main/src/platform/switch/icon.jpg",
-      "preferredVersion": null,
       "tags": [
         "snes",
         "nintendo",
@@ -20,9 +20,7 @@
       "name": "The Legend of Zelda: A Link to the Past (Decomp)",
       "repository": "RadzPrower/Zelda-3-Launcher",
       "folderName": "TheLegendOfZeldaALinkToThePast-Decomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/snesrev/zelda3/refs/heads/master/src/platform/win32/triforce.ico",
-      "preferredVersion": null,
       "tags": [
         "snes",
         "nintendo",

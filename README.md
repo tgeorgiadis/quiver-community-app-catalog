@@ -29,7 +29,7 @@ Full base: `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-c
 ## Repository layout
 
 ```
-index.json                 # list registry (GUIDs + remote URLs)
+index.json                 # list registry (schema v2: GUIDs + remote URLs)
 community-app-catalog/
   N64-Recomps.json
   N64-Decomps-HarbourMasters.json
@@ -45,29 +45,29 @@ README.md
 
 ## Index and list format
 
-**Index (`index.json`)** — each list entry has:
+**Index (`index.json`, schema version 2)** — registry only. Each list entry has:
 
 - `id` — stable GUID (do not change after publish)
-- `name` — display name
-- `description` — short summary
 - `remoteLocation` — raw GitHub URL to the list file
-- `listVersion` — must match that list file's `"version"`
+
+List metadata (`name`, `description`, `version`) lives in the list file, not the index.
 
 **List files (`community-app-catalog/*.json`)** — each file has:
 
-- `version` — semver string; bump when apps change
+- `name` — display name shown in Quiver
+- `description` — short summary of the list
+- `version` — semver string; bump when the list changes
 - `apps` — array of app entries
 
-When adding a new list file, add a matching entry to `index.json` with a new GUID and set `listVersion` to the file's `"version"`.
+When adding a new list file, add a matching entry to `index.json` with a new GUID and `remoteLocation`. Set `name`, `description`, and initial `version` in the list file itself.
 
 ## Updating the catalog
 
 1. Edit the relevant list file under `community-app-catalog/` (pick the platform or topic that matches the app; use `General-Game-Recreations.json` for cross-platform recreations).
 2. Bump that list's `"version"` string (semver recommended).
-3. Update the matching `"listVersion"` in `index.json` if needed.
-4. Commit and push to `main`.
+3. Commit and push to `main`.
 
-Quiver compares list versions on refresh and shows **Review changes** when a list differs from the last acknowledged version.
+Quiver compares each list's `"version"` on refresh and shows **Review changes** when a list differs from the last acknowledged version.
 
 ## Contributing
 
@@ -79,7 +79,7 @@ Open a pull request with your app entry in the appropriate list file and a versi
 - `appIconUrl` — icon URL (optional but recommended)
 - `tags` — searchable tags (optional)
 
-Do not include user-local fields like `skippedUpdateVersion`.
+Do not include user-local fields like `installPath`, `preferredVersion`, or `skippedUpdateVersion`.
 
 ## Naming conventions
 
@@ -105,7 +105,7 @@ Rules:
 - Filenames are case-sensitive in GitHub raw URLs — use the exact casing in `index.json` `remoteLocation` values.
 - Do not rename `community-app-catalog/` itself; it is part of every remote list URL.
 
-When adding a new list file, register it in `index.json` with a new GUID and matching `listVersion`.
+When adding a new list file, register it in `index.json` with a new GUID and `remoteLocation`, and set `name`, `description`, and `version` in the list file.
 
 ### App display `name`
 

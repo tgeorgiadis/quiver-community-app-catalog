@@ -1,13 +1,13 @@
 {
+  "name": "X360 Recomps",
+  "description": "Xbox 360 recompilation ports",
   "version": "1.0.0",
   "apps": [
     {
       "name": "Sonic Unleashed (Recomp)",
       "repository": "hedge-dev/UnleashedRecomp",
       "folderName": "SonicUnleashed-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/hedge-dev/UnleashedRecompResources/35322388006365a648f75f4981a496b12a7f7478/images/game_icon.png",
-      "preferredVersion": null,
       "tags": [
         "xbox 360",
         "recomp",
@@ -19,9 +19,7 @@
       "name": "Skate 3 (Recomp)",
       "repository": "mchughalex/skate3recomp",
       "folderName": "Skate3-Recomp",
-      "installPath": null,
       "appIconUrl": "https://raw.githubusercontent.com/mchughalex/skate3recomp/refs/heads/main/banner.png",
-      "preferredVersion": null,
       "tags": [
         "xbox 360",
         "recomp",
