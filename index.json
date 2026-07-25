@@ -36,6 +36,10 @@
     {
       "id": "e3b7f1da-c2a4-4e8b-f5d6-9a0b1c2d3e4f",
       "remoteLocation": "https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-catalog/General-Game-Recreations.json"
+    },
+    {
+      "id": "f4c8a2eb-d3b5-4f9c-a6e7-0b1c2d3e4f5a",
+      "remoteLocation": "https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-catalog/GB-Recomps.json"
     }
   ]
 }
