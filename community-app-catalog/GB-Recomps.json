@@ -1,12 +1,12 @@
 {
   "name": "GB Recomps",
   "description": "Gameboy recompilation ports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apps": [
     {
-      "name": "Pokemon Red / Blue [Gen1Recomp] (Recomp)",
+      "name": "Pokemon Red / Blue / Yellow [Gen1RecompProject] (Recomp)",
       "repository": "bryanthaboi/pokemon-gen1-recomp-project",
-      "folderName": "PokemonRedBlue-Gen1Recomp-Recomp",
+      "folderName": "PokemonRedBlueYellow-Gen1RecompProject-Recomp",
       "appIconUrl": "https://raw.githubusercontent.com/bryanthaboi/pokemon-gen1-recomp-project/refs/heads/main/assets/logo/gen1recomp_cover.png",
       "tags": [
         "gb",

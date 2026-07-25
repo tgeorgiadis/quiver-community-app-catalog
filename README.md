@@ -10,7 +10,7 @@ Quiver loads this URL on startup:
 
 `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/index.json`
 
-The index points to nine topic lists:
+The index points to the following app lists:
 
 | List | File |
 |------|------|
@@ -18,6 +18,7 @@ The index points to nine topic lists:
 | N64 Decomps (Harbour Masters) | `community-app-catalog/N64-Decomps-HarbourMasters.json` |
 | N64 Decomps | `community-app-catalog/N64-Decomps.json` |
 | SNES Decomps | `community-app-catalog/SNES-Decomps.json` |
+| GB Recomps | `community-app-catalog/GB-Recomps.json` |
 | GBA Decomps | `community-app-catalog/GBA-Decomps.json` |
 | GCN Decomps | `community-app-catalog/GCN-Decomps.json` |
 | PSX Decomps | `community-app-catalog/PSX-Decomps.json` |
@@ -35,6 +36,7 @@ community-app-catalog/
   N64-Decomps-HarbourMasters.json
   N64-Decomps.json
   SNES-Decomps.json
+  GB-Recomps.json
   GBA-Decomps.json
   GCN-Decomps.json
   PSX-Decomps.json
@@ -93,14 +95,14 @@ Each file is one catalog list. Use PascalCase segments separated by hyphens:
 
 | Pattern | Example |
 |---------|---------|
-| Platform recomp list | `N64-Recomps.json`, `X360-Recomps.json` |
+| Platform recomp list | `N64-Recomps.json`, `GB-Recomps.json`, `X360-Recomps.json` |
 | Platform decomp list | `SNES-Decomps.json`, `PSX-Decomps.json`, `GCN-Decomps.json` |
 | Platform decomp with qualifier | `N64-Decomps-HarbourMasters.json` |
 | Cross-platform / topic list | `General-Game-Recreations.json` |
 
 Rules:
 
-- Use platform shorthand with no spaces (`N64`, `SNES`, `GBA`, `PSX`, `GCN`, `X360`).
+- Use platform shorthand with no spaces (`N64`, `SNES`, `GB`, `GBA`, `PSX`, `GCN`, `X360`).
 - Match the suffix to the list content (`Recomps` vs `Decomps`).
 - Filenames are case-sensitive in GitHub raw URLs — use the exact casing in `index.json` `remoteLocation` values.
 - Do not rename `community-app-catalog/` itself; it is part of every remote list URL.
