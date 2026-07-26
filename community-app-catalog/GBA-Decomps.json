@@ -1,13 +1,27 @@
 {
   "name": "GBA Decomps",
   "description": "Game Boy Advance decompilation ports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apps": [
     {
       "name": "The Legend of Zelda: The Minish Cap (Decomp)",
       "repository": "MatheoVignaud/tmc",
       "folderName": "TheLegendOfZeldaTheMinishCap-Decomp",
       "appIconUrl": "https://raw.githubusercontent.com/MatheoVignaud/tmc/refs/heads/master/docs/doxygen/beanstalk-bg.png",
+      "tags": [
+        "gba",
+        "gameboy advance",
+        "nintendo",
+        "decomp",
+        "decompilation",
+        "zelda"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: The Minish Cap [Project Picori] (Decomp)",
+      "repository": "999sian/tmc",
+      "folderName": "TheLegendOfZeldaTheMinishCap-ProjectPicori-Decomp",
+      "appIconUrl": "https://raw.githubusercontent.com/999sian/tmc/refs/heads/master/docs/picori-logo.png",
       "tags": [
         "gba",
         "gameboy advance",
