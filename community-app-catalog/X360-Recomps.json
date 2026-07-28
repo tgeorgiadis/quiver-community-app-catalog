@@ -1,7 +1,7 @@
 {
   "name": "X360 Recomps",
   "description": "Xbox 360 recompilation ports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apps": [
     {
       "name": "Sonic Unleashed (Recomp)",
@@ -25,6 +25,18 @@
         "recomp",
         "recompiled",
         "skate"
+      ]
+    },
+    {
+      "name": "WWE SmackDown vs. Raw 2007 (Recomp)",
+      "repository": "HollywoodAkeem/SVR07-Recomp",
+      "folderName": "WWESmackDownVsRaw2007-Recomp",
+      "appIconUrl": "https://raw.githubusercontent.com/HollywoodAkeem/SVR07-Recomp/refs/heads/main/docs/images/logo.png",
+      "tags": [
+        "xbox 360",
+        "recomp",
+        "recompiled",
+        "wwe"
       ]
     }
   ]
