@@ -1,7 +1,7 @@
 {
   "name": "N64 Decomps (Harbour Masters)",
   "description": "Ship of Harkinian, Ghostship, and other Harbour Masters decomp ports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apps": [
     {
       "name": "The Legend of Zelda: Ocarina of Time [Ship of Harkinian] (Decomp)",
@@ -16,7 +16,20 @@
         "decompilation",
         "zelda",
         "harbour masters"
-      ]
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/ship-of-harkinian/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/16121"
+          }
+        ]
+      }
     },
     {
       "name": "The Legend of Zelda: Majora's Mask [2 Ship 2 Harkinian] (Decomp)",
@@ -31,7 +44,20 @@
         "decompilation",
         "zelda",
         "harbour masters"
-      ]
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/2-ship-2-harkinian/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/20371"
+          }
+        ]
+      }
     },
     {
       "name": "Mario Kart 64 [SpaghettiKart] (Decomp)",
@@ -47,7 +73,20 @@
         "mario",
         "mario kart",
         "harbour masters"
-      ]
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/spaghetti-kart/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/22970"
+          }
+        ]
+      }
     },
     {
       "name": "Star Fox 64 [Starship] (Decomp)",
@@ -62,7 +101,20 @@
         "decompilation",
         "star fox",
         "harbour masters"
-      ]
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/starship/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/21612"
+          }
+        ]
+      }
     },
     {
       "name": "Super Mario 64 [Ghostship] (Decomp)",
@@ -77,7 +129,16 @@
         "decompilation",
         "mario",
         "harbour masters"
-      ]
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/24131"
+          }
+        ]
+      }
     }
   ]
 }

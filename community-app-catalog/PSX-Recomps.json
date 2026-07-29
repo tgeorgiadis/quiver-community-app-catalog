@@ -1,0 +1,22 @@
+{
+  "name": "PSX Recomps",
+  "description": "PlayStation recompilation ports",
+  "version": "1.0.0",
+  "apps": [
+    {
+      "name": "Crash Bandicoot (Recomp)",
+      "repository": "Matteo842/CrashBandicoot-Launcher",
+      "folderName": "CrashBandicoot-Recomp",
+      "appIconUrl": "https://raw.githubusercontent.com/Matteo842/CrashBandicoot-Launcher/refs/heads/main/icon.png",
+      "tags": [
+        "psx",
+        "ps1",
+        "playstation 1",
+        "playstation",
+        "recomp",
+        "recompilation",
+        "crash bandicoot"
+      ]
+    }
+  ]
+}

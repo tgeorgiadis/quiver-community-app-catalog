@@ -40,6 +40,10 @@
     {
       "id": "f4c8a2eb-d3b5-4f9c-a6e7-0b1c2d3e4f5a",
       "remoteLocation": "https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-catalog/GB-Recomps.json"
+    },
+    {
+      "id": "33c2d7f2-a48a-445d-96c5-7e8f1da1a021",
+      "remoteLocation": "https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-catalog/PSX-Recomps.json"
     }
   ]
 }

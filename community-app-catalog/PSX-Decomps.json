@@ -1,7 +1,7 @@
 {
   "name": "PSX Decomps",
   "description": "PlayStation decompilation ports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apps": [
     {
       "name": "Driver 2 [REDRIVER2] (Decomp)",
@@ -16,6 +16,21 @@
         "decomp",
         "decompilation",
         "driver"
+      ]
+    },
+    {
+      "name": "Crash Team Racing (Decomp)",
+      "repository": "CTR-tools/ctr-native",
+      "folderName": "CrashTeamRacing-Decomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/0340a3b7dd7a146d0d9a41fa92ce05fa.jpg",
+      "tags": [
+        "psx",
+        "ps1",
+        "playstation 1",
+        "playstation",
+        "decomp",
+        "decompilation",
+        "crash"
       ]
     }
   ]
