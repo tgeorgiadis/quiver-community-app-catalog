@@ -45,5 +45,19 @@
         "super smash bros"
       ]
     }
+    {
+      "name": "Diddy Kong Racing [Golden Balloon] (Decomp)",
+      "repository": "akratch/goldenballoon",
+      "folderName": "DiddyKongRacing-GoldenBalloon-Decomp",
+      "appIconUrl": "https://raw.githubusercontent.com/akratch/goldenballoon/refs/heads/main/brand/appicon-source.png",
+      "tags": [
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "decomp",
+        "decompilation",
+        "diddy kong racing"
+      ]
+    }
   ]
 }
