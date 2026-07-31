@@ -1,8 +1,23 @@
 {
   "name": "N64 Decomps (Harbour Masters)",
   "description": "Ship of Harkinian, Ghostship, and other Harbour Masters decomp ports",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "apps": [
+    {
+      "name": "Banjo-Kazooie [Lighthouse] (Decomp)",
+      "repository": "HarbourMasters/Lighthouse",
+      "folderName": "BanjoKazooie-Lighthouse-Decomp",
+      "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Lighthouse/refs/heads/develop/logo.png",
+      "tags": [
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "decomp",
+        "decompilation",
+        "banjo",
+        "harbour masters"
+      ]
+    },
     {
       "name": "The Legend of Zelda: Ocarina of Time [Ship of Harkinian] (Decomp)",
       "repository": "harbourmasters/shipwright",
