@@ -1,7 +1,7 @@
 {
   "name": "N64 Decomps",
   "description": "N64 decompilation ports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apps": [
     {
       "name": "Perfect Dark (Decomp)",
@@ -44,7 +44,7 @@
         "decompilation",
         "super smash bros"
       ]
-    }
+    },
     {
       "name": "Diddy Kong Racing [Golden Balloon] (Decomp)",
       "repository": "akratch/goldenballoon",
