@@ -1,7 +1,7 @@
 {
   "name": "General Game Recreations",
   "description": "Game recreations and remasters across platforms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "apps": [
     {
       "name": "Super Mario Bros. Remastered (Recreation)",
@@ -17,9 +17,10 @@
     },
     {
       "name": "The Legend of Zelda: Link's Awakening DX [HD Updated] (Recreation)",
-      "repository": "BigheadSMZ/Zelda-LA-DX-HD-Updated",
+      "repository": "bighead.0/ladxhd_updated",
+      "repositorySource": "gitlab",
       "folderName": "TheLegendOfZeldaLinksAwakeningDX-HDUpdated-Recreation",
-      "appIconUrl": "https://raw.githubusercontent.com/BigheadSMZ/Zelda-LA-DX-HD-Updated/refs/heads/main/icon/windows/Icon.ico",
+      "appIconUrl": "https://gitlab.com/bighead.0/ladxhd_updated/-/raw/main/icon/windows/Icon.ico",
       "tags": [
         "gbc",
         "gameboy color",

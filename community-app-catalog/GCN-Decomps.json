@@ -1,7 +1,7 @@
 {
   "name": "GCN Decomps",
   "description": "Nintendo GameCube decompilation ports",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "apps": [
     {
       "name": "Animal Crossing (Decomp)",
@@ -15,6 +15,20 @@
         "decomp",
         "decompilation",
         "animal crossing"
+      ]
+    },
+    {
+      "name": "Mario Party 4 (Decomp)",
+      "repository": "mariopartyrd/marioparty4",
+      "folderName": "MarioParty4-Decomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/3e60e09c222f206c725385f53d7e567c.png",
+      "tags": [
+        "gamecube",
+        "nintendo",
+        "gc",
+        "decomp",
+        "decompilation",
+        "mario party"
       ]
     },
     {
