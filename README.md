@@ -1,4 +1,4 @@
-# Quiver Community App Catalog
+# Quiver Launcher Community App Catalog
 
 Official community-maintained app catalog for [Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher).
 
