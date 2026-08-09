@@ -1,7 +1,7 @@
 {
   "name": "GB Recomps",
   "description": "Gameboy recompilation ports",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "apps": [
     {
       "name": "Pokemon Red / Blue / Yellow [Gen1RecompProject] (Recomp)",
@@ -20,7 +20,14 @@
         "portable.txt"
       ],
       "mods": {
-        "path": "mods"
+        "path": "mods",
+        "layout": "folderPerMod",
+        "sources": [
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/25428"
+          }
+        ]
       }
     }
   ]
