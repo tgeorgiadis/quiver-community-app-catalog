@@ -1,12 +1,12 @@
 # Quiver Community App Catalog
 
-Official community-maintained app catalog for [Quiver](https://github.com/tgeorgiadis/quiver).
+Official community-maintained app catalog for [Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher).
 
-Fresh Quiver installs discover these lists automatically via the remote index. Your local `apps.json` is your library; use **App Catalog → Review** to add apps from a list deliberately.
+Fresh Quiver Launcher installs discover these lists automatically via the remote index. Your local `apps.json` is your library; use **App Catalog → Review** to add apps from a list deliberately.
 
 ## Remote index
 
-Quiver loads this URL on startup:
+Quiver Launcher loads this URL on startup:
 
 `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/index.json`
 
@@ -56,7 +56,7 @@ List metadata (`name`, `description`, `version`) lives in the list file, not the
 
 **List files (`community-app-catalog/*.json`)** — each file has:
 
-- `name` — display name shown in Quiver
+- `name` — display name shown in Quiver Launcher
 - `description` — short summary of the list
 - `version` — semver string; bump when the list changes
 - `apps` — array of app entries
@@ -69,7 +69,7 @@ When adding a new list file, add a matching entry to `index.json` with a new GUI
 2. Bump that list's `"version"` string (semver recommended).
 3. Commit and push to `main`.
 
-Quiver compares each list's `"version"` on refresh and shows **Review changes** when a list differs from the last acknowledged version.
+Quiver Launcher compares each list's `"version"` on refresh and shows **Review changes** when a list differs from the last acknowledged version.
 
 ## Contributing
 
@@ -77,7 +77,7 @@ Open a pull request with your app entry in the appropriate list file and a versi
 
 - `name` — display name
 - `repository` — GitHub repo (`owner/name`)
-- `folderName` — install folder under Quiver's Apps directory
+- `folderName` — install folder under Quiver Launcher's Apps directory
 - `appIconUrl` — icon URL (optional but recommended)
 - `tags` — searchable tags (optional)
 
@@ -111,7 +111,7 @@ When adding a new list file, register it in `index.json` with a new GUID and `re
 
 ### App display `name`
 
-Human-readable title shown in Quiver:
+Human-readable title shown in Quiver Launcher:
 
 ```
 {Title} [{Optional project name}] ({Recomp|Decomp|Recreation})
@@ -125,7 +125,7 @@ Examples:
 
 ### App `folderName`
 
-Install folder under Quiver's Apps directory. Use PascalCase with no spaces:
+Install folder under Quiver Launcher's Apps directory. Use PascalCase with no spaces:
 
 ```
 {GameTitle}[-{VariantOrProjectName}]-{Recomp|Decomp|Recreation}
