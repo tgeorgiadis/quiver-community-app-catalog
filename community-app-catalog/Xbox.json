@@ -2,6 +2,19 @@
   "name": "Xbox",
   "description": "Xbox platform ports, decompilations, and recompilations",
   "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "og xbox",
+    "x360"
+  ],
+  "hiddenTagFilters": [
+    "xbox",
+    "decompilation",
+    "recompilation",
+    "xbox 360"
+  ],
   "apps": [
     {
       "name": "Sonic Unleashed",

@@ -2,6 +2,32 @@
   "name": "Nintendo",
   "description": "Nintendo platform ports, decompilations, recompilations, and recreations",
   "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "n64",
+    "nes",
+    "snes",
+    "gba",
+    "gbc",
+    "gb",
+    "gcn",
+    "wii",
+    "nds",
+    "3ds",
+    "wiiu"
+  ],
+  "hiddenTagFilters": [
+    "nintendo",
+    "super nintendo entertainment system",
+    "game boy",
+    "game boy color",
+    "game boy advance",
+    "gamecube",
+    "decompilation",
+    "recompilation"
+  ],
   "apps": [
     {
       "name": "Banjo-Kazooie",

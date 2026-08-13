@@ -2,6 +2,21 @@
   "name": "Other Platforms",
   "description": "Other platform ports, decompilations, and recompilations",
   "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "pc",
+    "mobile",
+    "gen",
+    "smd"
+  ],
+  "hiddenTagFilters": [
+    "decompilation",
+    "recompilation",
+    "sega genesis",
+    "sega mega drive"
+  ],
   "apps": [
     {
       "name": "Oddworld: Abe's Oddysee and Abe's Exoddus",

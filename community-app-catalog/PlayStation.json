@@ -2,6 +2,20 @@
   "name": "PlayStation",
   "description": "PlayStation platform ports, decompilations, and recompilations",
   "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "ps1",
+    "ps2"
+  ],
+  "hiddenTagFilters": [
+    "playstation",
+    "decompilation",
+    "recompilation",
+    "playstation 1",
+    "playstation 2"
+  ],
   "apps": [
     {
       "name": "Driver 2",
