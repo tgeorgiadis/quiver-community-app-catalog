@@ -14,6 +14,7 @@
         "n64",
         "banjo",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -40,6 +41,7 @@
         "n64",
         "bomberman",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -66,6 +68,7 @@
         "n64",
         "bomberman",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -74,15 +77,16 @@
     },
     {
       "name": "Castlevania: Legacy of Darkness",
-      "project": "fliperama86",
+      "project": "Castlevania: Legacy of Darkness Recompilation",
       "repository": "fliperama86/cvlod_recomp",
-      "folderName": "CastlevaniaLegacyOfDarkness-Fliperama86",
+      "folderName": "CastlevaniaLegacyOfDarkness-CastlevaniaLegacyOfDarknessRecompilation",
       "appIconUrl": "https://raw.githubusercontent.com/fliperama86/cvlod_recomp/refs/heads/main/src/main/lod_recomp.ico",
       "tags": [
         "recomp",
         "n64",
         "castlevania",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -100,6 +104,7 @@
         "n64",
         "chameleon twist",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -117,6 +122,7 @@
         "n64",
         "dinosaur planet",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -143,6 +149,7 @@
         "n64",
         "mario",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -161,6 +168,7 @@
         "n64",
         "duke nukem",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -178,6 +186,7 @@
         "n64",
         "harvest moon",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -204,6 +213,7 @@
         "n64",
         "zelda",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -230,10 +240,11 @@
         "recomp",
         "n64",
         "mario",
-        "nintendo",
-        "recompilation",
         "mario kart",
-        "racing"
+        "racing",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
       ],
       "filesToAdd": [
         "portable.txt"
@@ -250,6 +261,7 @@
         "n64",
         "mega man",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -276,6 +288,7 @@
         "n64",
         "goemon",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -302,6 +315,7 @@
         "n64",
         "pokemon",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -319,6 +333,7 @@
         "n64",
         "quest",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -335,10 +350,11 @@
         "recomp",
         "n64",
         "snowboard kids",
-        "nintendo",
-        "recompilation",
         "snowboarding",
-        "sports"
+        "sports",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
       ],
       "filesToAdd": [
         "portable.txt"
@@ -354,6 +370,7 @@
         "recomp",
         "n64",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -372,6 +389,7 @@
         "n64",
         "star fox",
         "nintendo",
+        "nintendo 64",
         "recompilation"
       ],
       "filesToAdd": [
@@ -399,6 +417,7 @@
         "harbour masters",
         "banjo",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ]
     },
@@ -414,6 +433,7 @@
         "harbour masters",
         "zelda",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ],
       "mods": {
@@ -442,6 +462,7 @@
         "harbour masters",
         "zelda",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ],
       "mods": {
@@ -469,9 +490,10 @@
         "n64",
         "harbour masters",
         "mario",
+        "mario kart",
         "nintendo",
-        "decompilation",
-        "mario kart"
+        "nintendo 64",
+        "decompilation"
       ],
       "mods": {
         "path": "mods",
@@ -499,6 +521,7 @@
         "harbour masters",
         "star fox",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ],
       "mods": {
@@ -527,6 +550,7 @@
         "harbour masters",
         "mario",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ],
       "mods": {
@@ -550,20 +574,22 @@
         "n64",
         "perfect dark",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ]
     },
     {
-      "name": "Super Mario 64 Co-op DX",
+      "name": "Super Mario 64 [Co-op DX]",
       "project": "Super Mario 64 Co-op DX",
       "repository": "coop-deluxe/sm64coopdx",
-      "folderName": "SuperMario64CoOpDX-CoOpDX",
+      "folderName": "SuperMario64-SuperMario64CoopDX",
       "appIconUrl": "https://raw.githubusercontent.com/coop-deluxe/sm64coopdx/refs/heads/main/res/icon.icon/Assets/icon.png",
       "tags": [
         "decomp",
         "n64",
         "mario",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ]
     },
@@ -578,6 +604,7 @@
         "n64",
         "super smash bros",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ]
     },
@@ -592,6 +619,7 @@
         "n64",
         "diddy kong racing",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ]
     },
@@ -606,34 +634,52 @@
         "n64",
         "f-zero",
         "nintendo",
+        "nintendo 64",
         "decompilation"
       ]
     },
     {
       "name": "Super Mario World",
-      "project": "snesrev",
+      "project": "snesrev: smw",
       "repository": "snesrev/smw",
-      "folderName": "SuperMarioWorld-Snesrev",
+      "folderName": "SuperMarioWorld-SnesrevSmw",
       "appIconUrl": "https://raw.githubusercontent.com/snesrev/smw/refs/heads/main/src/platform/switch/icon.jpg",
       "tags": [
         "decomp",
         "snes",
         "mario",
         "nintendo",
+        "super nintendo entertainment system",
         "decompilation"
       ]
     },
     {
       "name": "The Legend of Zelda: A Link to the Past",
-      "project": "snesrev",
+      "project": "snesrev: Zelda 3 Launcher",
       "repository": "RadzPrower/Zelda-3-Launcher",
-      "folderName": "TheLegendOfZeldaALinkToThePast-Snesrev",
+      "folderName": "TheLegendOfZeldaALinkToThePast-SnesrevZelda3Launcher",
       "appIconUrl": "https://raw.githubusercontent.com/snesrev/zelda3/refs/heads/master/src/platform/win32/triforce.ico",
       "tags": [
         "decomp",
         "snes",
         "zelda",
         "nintendo",
+        "super nintendo entertainment system",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Super Metroid",
+      "project": "snesrev: Super Metroid Launcher",
+      "repository": "RadzPrower/Super-Metroid-Launcher",
+      "folderName": "SuperMetroid-SnesrevSuperMetroidLauncher",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/26e3dcb90aa10011db5b660c463f325f/32/256x256.png",
+      "tags": [
+        "decomp",
+        "snes",
+        "metroid",
+        "nintendo",
+        "super nintendo entertainment system",
         "decompilation"
       ]
     },
@@ -647,7 +693,8 @@
         "recreation",
         "gb",
         "pokemon",
-        "nintendo"
+        "nintendo",
+        "game boy"
       ],
       "filesToAdd": [
         "portable.txt"
@@ -674,6 +721,7 @@
         "gba",
         "zelda",
         "nintendo",
+        "game boy advance",
         "decompilation"
       ]
     },
@@ -688,6 +736,7 @@
         "gcn",
         "animal crossing",
         "nintendo",
+        "gamecube",
         "decompilation"
       ]
     },
@@ -702,6 +751,7 @@
         "gcn",
         "mario party",
         "nintendo",
+        "gamecube",
         "decompilation"
       ]
     },
@@ -716,11 +766,12 @@
         "gcn",
         "zelda",
         "nintendo",
+        "gamecube",
         "decompilation"
       ]
     },
     {
-      "name": "Super Mario Bros. Remastered",
+      "name": "Super Mario Bros. [Remastered]",
       "project": "Super Mario Bros. Remastered",
       "repository": "JHDev2006/Super-Mario-Bros.-Remastered-Public",
       "folderName": "SuperMarioBrosRemastered-SuperMarioBrosRemastered",
@@ -730,22 +781,22 @@
         "nes",
         "mario",
         "nintendo",
-        "recreation"
+        "nintendo entertainment system"
       ]
     },
     {
-      "name": "The Legend of Zelda: Link's Awakening DX",
-      "project": "HD Updated",
+      "name": "The Legend of Zelda: Link's Awakening DX [HD Updated]",
+      "project": "LADXHD Updated",
       "repository": "bighead.0/ladxhd_updated",
       "repositorySource": "gitlab",
-      "folderName": "TheLegendOfZeldaLinksAwakeningDX-HDUpdated",
+      "folderName": "TheLegendOfZeldaLinksAwakeningDX-LADXHDUpdated",
       "appIconUrl": "https://gitlab.com/bighead.0/ladxhd_updated/-/raw/main/icon/windows/Icon.ico",
       "tags": [
         "recreation",
         "gbc",
         "zelda",
         "nintendo",
-        "recreation"
+        "game boy color"
       ]
     },
     {
@@ -758,8 +809,22 @@
         "recreation",
         "wii",
         "sonic",
+        "nintendo"
+      ]
+    },
+    {
+      "name": "Mega Man X",
+      "project": "Mega Man X SNES Recomp",
+      "repository": "mstan/MegaManXSNESRecomp",
+      "folderName": "MegaManX-MegaManXSNESRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/logo_thumb/2ae549cf604c064a34019c7bd4a81e24.png",
+      "tags": [
+        "recomp",
+        "snes",
+        "megaman",
         "nintendo",
-        "recreation"
+        "super nintendo entertainment system",
+        "recompilation"
       ]
     }
   ]

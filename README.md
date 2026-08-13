@@ -17,7 +17,7 @@ The index points to four brand lists:
 | Nintendo | `community-app-catalog/Nintendo.json` |
 | PlayStation | `community-app-catalog/PlayStation.json` |
 | Xbox | `community-app-catalog/Xbox.json` |
-| PC | `community-app-catalog/PC.json` |
+| Other Platforms | `community-app-catalog/OtherPlatforms.json` |
 
 Full base: `https://raw.githubusercontent.com/tgeorgiadis/quiver-community-app-catalog/main/community-app-catalog/`
 
@@ -29,7 +29,7 @@ community-app-catalog/
   Nintendo.json
   PlayStation.json
   Xbox.json
-  PC.json
+  OtherPlatforms.json
 README.md
 ```
 
@@ -53,7 +53,7 @@ When adding a new list file, add a matching entry to `index.json` with a new GUI
 
 ## Updating the catalog
 
-1. Edit the relevant brand list under `community-app-catalog/` (Nintendo, PlayStation, Xbox, or PC).
+1. Edit the relevant brand list under `community-app-catalog/` (Nintendo, PlayStation, Xbox, or Other Platforms).
 2. Bump that list's `"version"` string (semver recommended).
 3. Commit and push to `main`.
 
@@ -79,11 +79,11 @@ Each file is one catalog list, organized by brand:
 
 | Pattern | Example |
 |---------|---------|
-| Brand list | `Nintendo.json`, `PlayStation.json`, `Xbox.json`, `PC.json` |
+| Brand list | `Nintendo.json`, `PlayStation.json`, `Xbox.json`, `OtherPlatforms.json` |
 
 Rules:
 
-- Use the brand display name in PascalCase (`Nintendo`, `PlayStation`, `Xbox`, `PC`).
+- Use the brand display name in PascalCase (`Nintendo`, `PlayStation`, `Xbox`, `OtherPlatforms`).
 - Filenames are case-sensitive in GitHub raw URLs — use the exact casing in `index.json` `remoteLocation` values.
 - Do not rename `community-app-catalog/` itself; it is part of every remote list URL.
 
@@ -91,7 +91,7 @@ When adding a new list file, register it in `index.json` with a new GUID and `re
 
 ### App display `name`
 
-Game title only (no type suffix, no project in brackets):
+Game title only:
 
 ```
 {Title}
@@ -101,19 +101,30 @@ Examples:
 
 - `Banjo-Kazooie`
 - `Super Mario 64`
-- `Super Mario Bros. Remastered`
 
 Do not put `(Decomp)`, `(Recomp)`, `(Recreation)`, or `(Port)` in `name`. Type is conveyed by tags.
 
+For a recreation that is clearly a distinct take on the game (not a straight port/decomp), put the distinguishing label in square brackets:
+
+```
+{Title} [{Distinct recreation label}]
+```
+
+Example: `Super Mario 64 [Co-op DX]`, `The Legend of Zelda: Link's Awakening DX [HD Updated]`.
+
+Do not use `[brackets]` for ordinary decomp/recomp project names — those belong in `project` (e.g. Ship of Harkinian, Lighthouse).
+
 ### App `project` (required)
 
-Team, port, author, or product attribution. Place directly below `name`. Every app must set `project` — it distinguishes ports of the same game and will drive future install folders:
+Team, port, author, or product attribution. Place directly below `name`. Every app must set `project` — it feeds install folders:
 
 ```
-{PascalCaseGameName}-{PascalCaseProject}
+{PascalCase(name)}-{PascalCase(project)}
 ```
 
-Example: `Bomberman64-RevoSucks` vs a second Bomberman 64 port under another creator.
+Prefer a clear product or README title when one exists (`Ship of Harkinian`, `Unleashed Recompiled`, `Banjo: Recompiled`, `SS Anne`). Creator/org names are fine too if it is a better fit for the project.
+
+Uniqueness across future alternate ports of the same game is not required up front — when a second port is added later, give *that* entry a distinct `project` (and `folderName`) then.
 
 ```json
 {
@@ -124,21 +135,13 @@ Example: `Bomberman64-RevoSucks` vs a second Bomberman 64 port under another cre
 }
 ```
 
-Choose `project` in this order:
-
-1. **Distinct product / codename** that would not collide across forks of the same game (`Ship of Harkinian`, `Lighthouse`, `Unleashed Recompiled`, `SS Anne`, `REDRIVER2`).
-2. **Owner / org / creator** when the README title is only `{Game}: Recompiled` (or similar) — e.g. `RevoSucks`, `Rainchus`, `sonicdcer`.
-3. **Project-named org** when the org *is* the brand for that game (`BanjoRecomp`, `DinosaurPlanetRecomp`).
-
-Avoid generic `{Game}: Recompiled` labels and repo slugs that only embed the game + `Recomp` (`BM64Recomp`, `MarioKart64Recomp`) — they are not unique if another port of the same game appears.
-
 Examples:
 
 | `name` | `project` |
 |--------|-----------|
-| Banjo-Kazooie | BanjoRecomp |
+| Banjo-Kazooie | Banjo: Recompiled |
 | Banjo-Kazooie | Lighthouse |
-| Bomberman 64 | RevoSucks |
+| Bomberman 64 | Bomberman 64: Recompiled |
 | Super Mario 64 | Ghostship |
 | The Legend of Zelda: Ocarina of Time | Ship of Harkinian |
 | Driver 2 | REDRIVER2 |
@@ -147,43 +150,49 @@ Examples:
 
 Use this order (omit a slot when it does not apply):
 
-1. **Type short** — `recomp` | `decomp` | `recreation`
-2. **Console acronym** — see table below
+1. **Type** — `recomp` | `decomp` | `recreation` (use `recreation` only once, at the start — there is no separate long form)
+2. **Console acronym(s)** — one or more from the table below
 3. **Project** — only if relevant (e.g. `harbour masters`)
 4. **Series** — franchise/identity (e.g. `mario`, `zelda`, `sonic`)
-5. **Brand** — `nintendo` | `playstation` | `xbox` (omit for PC; `pc` is already the console tag)
-6. **Type long** — `recompilation` | `decompilation` | `recreation`
-7. Any other useful tags after that
+5. **Brand** — `nintendo` | `playstation` | `xbox` (omit for Other Platforms when the console tag already covers it, e.g. `pc`)
+6. **Full console name(s)** — lowercase long form matching each acronym (see table); omit when it would duplicate the acronym (`wii`, `pc`, `mobile`)
+7. **Type long** — `recompilation` | `decompilation` only (not used for recreations)
+8. Any other useful tags after that
 
-Console acronyms:
+Multiple console tags are allowed when the game spans platforms or a platform has alternate names (e.g. `gen` + `smd`, or `mobile` + `gen`). Put matching acronyms together after the type tag, and their full names together after brand (same order).
 
-| Console | Tag |
-|---------|-----|
-| Nintendo Entertainment System | `nes` |
-| Super Nintendo Entertainment System | `snes` |
-| Nintendo 64 | `n64` |
-| GameCube | `gcn` |
-| Wii | `wii` |
-| Game Boy | `gb` |
-| Game Boy Color | `gbc` |
-| Game Boy Advance | `gba` |
-| PlayStation / PS1 | `ps1` |
-| PlayStation 2 | `ps2` |
-| Xbox | `xbox` |
-| Xbox 360 | `x360` |
-| PC | `pc` |
+Console tags:
 
-Do not also add long-form console aliases (`nintendo 64`, `playstation 1`, `gamecube`, `xbox 360`, `psx`, `gc`, etc.).
+| Console | Acronym | Full name tag |
+|---------|---------|---------------|
+| Nintendo Entertainment System | `nes` | `nintendo entertainment system` |
+| Super Nintendo Entertainment System | `snes` | `super nintendo entertainment system` |
+| Nintendo 64 | `n64` | `nintendo 64` |
+| GameCube | `gcn` | `gamecube` |
+| Wii | `wii` | *(omit — same as acronym)* |
+| Game Boy | `gb` | `game boy` |
+| Game Boy Color | `gbc` | `game boy color` |
+| Game Boy Advance | `gba` | `game boy advance` |
+| PlayStation / PS1 | `ps1` | `playstation 1` |
+| PlayStation 2 | `ps2` | `playstation 2` |
+| Xbox | `xbox` | *(omit — same as acronym; use as brand)* |
+| Xbox 360 | `x360` | `xbox 360` |
+| Sega Mega Drive | `smd` | `sega mega drive` |
+| Sega Genesis | `gen` | `sega genesis` |
+| PC | `pc` | *(omit — same as acronym)* |
+
+Do not use alternate console spellings (`psx`, `gc`, etc.) — stick to the acronym and full-name columns above.
 
 Examples:
 
 ```text
-recomp, n64, banjo, nintendo, recompilation
-decomp, n64, harbour masters, zelda, nintendo, decompilation
-decomp, ps1, crash, playstation, decompilation
-recomp, x360, sonic, xbox, recompilation
+recomp, n64, banjo, nintendo, nintendo 64, recompilation
+decomp, n64, harbour masters, zelda, nintendo, nintendo 64, decompilation
+decomp, ps1, crash, playstation, playstation 1, decompilation
+recomp, x360, sonic, xbox, xbox 360, recompilation
 decomp, pc, oddworld, decompilation
-recreation, nes, mario, nintendo, recreation
+recreation, nes, mario, nintendo, nintendo entertainment system
+decomp, mobile, gen, smd, sonic, sega genesis, sega mega drive, decompilation
 ```
 
 ### App `folderName`
@@ -228,4 +237,4 @@ Rules:
 | Nintendo platforms (N64, SNES, GB, GBA, GCN, Wii, NES, etc.) | `Nintendo.json` |
 | PlayStation platforms (PSX, PS2, etc.) | `PlayStation.json` |
 | Xbox platforms (Xbox 360, etc.) | `Xbox.json` |
-| PC | `PC.json` |
+| PC, Sega, mobile, and other non-brand lists | `OtherPlatforms.json` |

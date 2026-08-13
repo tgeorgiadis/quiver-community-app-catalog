@@ -14,6 +14,7 @@
         "ps1",
         "driver",
         "playstation",
+        "playstation 1",
         "decompilation"
       ]
     },
@@ -28,6 +29,7 @@
         "ps1",
         "crash",
         "playstation",
+        "playstation 1",
         "decompilation"
       ]
     },
@@ -42,6 +44,7 @@
         "ps1",
         "wipeout",
         "playstation",
+        "playstation 1",
         "decompilation"
       ]
     },
@@ -56,6 +59,7 @@
         "ps1",
         "legend of dragoon",
         "playstation",
+        "playstation 1",
         "decompilation"
       ]
     },
@@ -70,6 +74,7 @@
         "ps1",
         "crash bandicoot",
         "playstation",
+        "playstation 1",
         "recompilation"
       ]
     },
@@ -84,6 +89,7 @@
         "ps1",
         "castlevania",
         "playstation",
+        "playstation 1",
         "recompilation"
       ]
     },
@@ -98,6 +104,7 @@
         "ps1",
         "syphon filter",
         "playstation",
+        "playstation 1",
         "recompilation"
       ]
     },
@@ -112,6 +119,7 @@
         "ps2",
         "fatal frame",
         "playstation",
+        "playstation 2",
         "decompilation"
       ]
     }
