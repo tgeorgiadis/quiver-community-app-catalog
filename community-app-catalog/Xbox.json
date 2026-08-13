@@ -1,6 +1,6 @@
 {
   "name": "Xbox",
-  "description": "Xbox platform ports, decompilations, and recompilations",
+  "description": "Xbox platform ports and recreations",
   "version": "1.0.0",
   "preferredTagFilters": [
     "recomp",

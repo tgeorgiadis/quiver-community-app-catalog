@@ -1,6 +1,6 @@
 {
   "name": "Other Platforms",
-  "description": "Other platform ports, decompilations, and recompilations",
+  "description": "Other platform ports and recompilations",
   "version": "1.0.0",
   "preferredTagFilters": [
     "recomp",

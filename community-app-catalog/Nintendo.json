@@ -1,6 +1,6 @@
 {
   "name": "Nintendo",
-  "description": "Nintendo platform ports, decompilations, recompilations, and recreations",
+  "description": "Nintendo platform ports and recreations",
   "version": "1.0.0",
   "preferredTagFilters": [
     "recomp",

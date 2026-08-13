@@ -1,6 +1,6 @@
 {
   "name": "PlayStation",
-  "description": "PlayStation platform ports, decompilations, and recompilations",
+  "description": "PlayStation platform ports and recreations",
   "version": "1.0.0",
   "preferredTagFilters": [
     "recomp",
