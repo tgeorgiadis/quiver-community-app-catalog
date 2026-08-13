@@ -79,9 +79,9 @@
     },
     {
       "name": "Crash Bandicoot",
-      "project": "Matteo842",
+      "project": "Crash Bandicoot Launcher",
       "repository": "Matteo842/CrashBandicoot-Launcher",
-      "folderName": "CrashBandicoot-Matteo842",
+      "folderName": "CrashBandicoot-CrashBandicootLauncher",
       "appIconUrl": "https://raw.githubusercontent.com/Matteo842/CrashBandicoot-Launcher/refs/heads/main/icon.png",
       "tags": [
         "recomp",
@@ -109,9 +109,9 @@
     },
     {
       "name": "Syphon Filter",
-      "project": "Madxbio97",
+      "project": "Syphon Filter PC",
       "repository": "Madxbio97/SF-pc-port",
-      "folderName": "SyphonFilter-Madxbio97",
+      "folderName": "SyphonFilter-SyphonFilterPC",
       "appIconUrl": "https://cdn2.steamgriddb.com/thumb/87148bb2a9d56edd463cf584641dd54d.jpg",
       "tags": [
         "recomp",
