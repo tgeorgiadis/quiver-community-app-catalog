@@ -75,6 +75,21 @@
         "xbox 360",
         "recompilation"
       ]
+    },
+    {
+      "name": "Silent Hill: Downpour",
+      "project": "DownpourRecomp",
+      "repository": "LittleBitUA/DownpourRecomp",
+      "folderName": "SilentHillDownpour-DownpourRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/514bfdd243ea5ff2e934fc3fd552e246.jpg",
+      "tags": [
+        "recomp",
+        "x360",
+        "silent hill",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
     }
   ]
 }
