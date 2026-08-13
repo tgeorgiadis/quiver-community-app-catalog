@@ -1,0 +1,859 @@
+{
+  "name": "Nintendo",
+  "description": "Nintendo platform ports and recreations",
+  "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "nes",
+    "snes",
+    "n64",
+    "gb",
+    "gbc",
+    "gba",
+    "gcn",
+    "nds",
+    "3ds",
+    "wii",
+    "wiiu"
+  ],
+  "hiddenTagFilters": [
+    "nintendo",
+    "nintendo entertainment system",
+    "super nintendo entertainment system",
+    "nintendo 64",
+    "game boy",
+    "game boy color",
+    "game boy advance",
+    "gamecube",
+    "decompilation",
+    "recompilation"
+  ],
+  "apps": [
+    {
+      "name": "Banjo-Kazooie",
+      "project": "Banjo: Recompiled",
+      "repository": "BanjoRecomp/BanjoRecomp",
+      "folderName": "BanjoKazooie-BanjoRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/BanjoRecomp/BanjoRecomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "banjo",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/banjo-recompiled/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bomberman 64",
+      "project": "Bomberman 64: Recompiled",
+      "repository": "RevoSucks/BM64Recomp",
+      "folderName": "Bomberman64-Bomberman64Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/RevoSucks/BM64Recomp/refs/heads/master/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "bomberman",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/bomberman-64-recompiled/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bomberman Hero",
+      "project": "Bomberman Hero: Recompiled",
+      "repository": "RevoSucks/BMHeroRecomp",
+      "folderName": "BombermanHero-BombermanHeroRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/RevoSucks/BMHeroRecomp/refs/heads/master/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "bomberman",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Castlevania: Legacy of Darkness",
+      "project": "Castlevania: Legacy of Darkness Recompilation",
+      "repository": "fliperama86/cvlod_recomp",
+      "folderName": "CastlevaniaLegacyOfDarkness-CastlevaniaLegacyOfDarknessRecompilation",
+      "appIconUrl": "https://raw.githubusercontent.com/fliperama86/cvlod_recomp/refs/heads/main/src/main/lod_recomp.ico",
+      "tags": [
+        "recomp",
+        "n64",
+        "castlevania",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Chameleon Twist",
+      "project": "Chameleon Twist: Recompiled",
+      "repository": "Rainchus/ChameleonTwist1-JP-Recomp",
+      "folderName": "ChameleonTwist-ChameleonTwistRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/c1f22f4c38899f51f1ed3ce20120bbd9.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "chameleon twist",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Dinosaur Planet",
+      "project": "Dinosaur Planet: Recompiled",
+      "repository": "DinosaurPlanetRecomp/dino-recomp",
+      "folderName": "DinosaurPlanet-DinosaurPlanetRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/DinosaurPlanetRecomp/dino-recomp/refs/heads/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "dinosaur planet",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/dinosaur-planet-recompiled/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dr. Mario 64",
+      "project": "Dr. Mario 64: Recompiled Plus",
+      "repository": "theboy181/drmario64_recomp_plus",
+      "folderName": "DrMario64-DrMario64RecompiledPlus",
+      "appIconUrl": "https://raw.githubusercontent.com/theboy181/drmario64_recomp_plus/refs/heads/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "mario",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Duke Nukem: Zero Hour",
+      "project": "Duke Nukem Zero Hour: Recompiled",
+      "repository": "sonicdcer/DNZHRecomp",
+      "repositorySource": "gitlab",
+      "folderName": "DukeNukemZeroHour-DukeNukemZeroHourRecompiled",
+      "appIconUrl": "https://gitlab.com/sonicdcer/DNZHRecomp/-/raw/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "duke nukem",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Harvest Moon 64",
+      "project": "Harvest Moon 64: Recompiled",
+      "repository": "HarvestMoon64Recomp/HarvestMoon64Recomp",
+      "folderName": "HarvestMoon64-HarvestMoon64Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/HarvestMoon64Recomp/HarvestMoon64Recomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "harvest moon",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/harvest-moon-64-recompiled/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask and Ocarina of Time",
+      "project": "Zelda 64: Recompiled",
+      "repository": "Zelda64Recomp/Zelda64Recomp",
+      "folderName": "TheLegendOfZeldaMajorasMaskAndOcarinaOfTime-Zelda64Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/refs/heads/dev/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "zelda",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/zelda-64-recompiled/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mario Kart 64",
+      "project": "Mario Kart 64: Recompiled",
+      "repository": "sonicdcer/MarioKart64Recomp",
+      "repositorySource": "gitlab",
+      "folderName": "MarioKart64-MarioKart64Recompiled",
+      "appIconUrl": "https://gitlab.com/sonicdcer/MarioKart64Recomp/-/raw/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "mario",
+        "mario kart",
+        "racing",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Mega Man 64",
+      "project": "Mega Man 64: Recompiled",
+      "repository": "MegaMan64Recomp/MegaMan64Recompiled",
+      "folderName": "MegaMan64-MegaMan64Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/MegaMan64Recomp/MegaMan64Recompiled/refs/heads/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "mega man",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/mega-man-64-recompiled/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mystical Ninja Starring Goemon",
+      "project": "Goemon 64: Recompiled",
+      "repository": "klorfmorf/Goemon64Recomp",
+      "folderName": "MysticalNinjaStarringGoemon-Goemon64Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/klorfmorf/Goemon64Recomp/refs/heads/dev/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "goemon",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/24290"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pokemon Stadium",
+      "project": "SS Anne",
+      "repository": "mstan/PokemonStadiumRecomp",
+      "folderName": "PokemonStadium-SSAnne",
+      "appIconUrl": "https://raw.githubusercontent.com/mstan/PokemonStadiumRecomp/refs/heads/main/assets/carts/yellow.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "pokemon",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Quest 64",
+      "project": "Quest 64: Recompiled",
+      "repository": "Rainchus/Quest64-Recomp",
+      "folderName": "Quest64-Quest64Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/Rainchus/Quest64-Recomp/refs/heads/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "quest",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Snowboard Kids 2",
+      "project": "Snowboard Kids 2: Recompiled",
+      "repository": "cdlewis/snowboardkids2-recomp",
+      "folderName": "SnowboardKids2-SnowboardKids2Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/cdlewis/snowboardkids2-recomp/refs/heads/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "snowboard kids",
+        "snowboarding",
+        "sports",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Space Station Silicon Valley",
+      "project": "Space Station Silicon Valley: Recompiled",
+      "repository": "Cellenseres/SSSV_Recomp",
+      "folderName": "SpaceStationSiliconValley-SpaceStationSiliconValleyRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/Cellenseres/SSSV_Recomp/refs/heads/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Star Fox 64",
+      "project": "Star Fox 64: Recompiled",
+      "repository": "sonicdcer/Starfox64Recomp",
+      "repositorySource": "gitlab",
+      "folderName": "StarFox64-StarFox64Recompiled",
+      "appIconUrl": "https://gitlab.com/sonicdcer/Starfox64Recomp/-/raw/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "star fox",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/starfox-64-recompiled/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Banjo-Kazooie",
+      "project": "Lighthouse",
+      "repository": "HarbourMasters/Lighthouse",
+      "folderName": "BanjoKazooie-Lighthouse",
+      "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Lighthouse/refs/heads/develop/logo.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "harbour masters",
+        "banjo",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "project": "Ship of Harkinian",
+      "repository": "harbourmasters/shipwright",
+      "folderName": "TheLegendOfZeldaOcarinaOfTime-ShipOfHarkinian",
+      "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Shipwright/refs/heads/develop/soh/SHIPOFHARKINIAN.ico",
+      "tags": [
+        "decomp",
+        "n64",
+        "harbour masters",
+        "zelda",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/ship-of-harkinian/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/16121"
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask",
+      "project": "2 Ship 2 Harkinian",
+      "repository": "harbourmasters/2ship2harkinian",
+      "folderName": "TheLegendOfZeldaMajorasMask-2Ship2Harkinian",
+      "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/2ship2harkinian/refs/heads/develop/mm/windows/2SHIP2HARKINIAN.ico",
+      "tags": [
+        "decomp",
+        "n64",
+        "harbour masters",
+        "zelda",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/2-ship-2-harkinian/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/20371"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mario Kart 64",
+      "project": "SpaghettiKart",
+      "repository": "harbourmasters/spaghettikart",
+      "folderName": "MarioKart64-SpaghettiKart",
+      "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/SpaghettiKart/refs/heads/main/icon.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "harbour masters",
+        "mario",
+        "mario kart",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/spaghetti-kart/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/22970"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Star Fox 64",
+      "project": "Starship",
+      "repository": "harbourmasters/starship",
+      "folderName": "StarFox64-Starship",
+      "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Starship/refs/heads/main/logo.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "harbour masters",
+        "star fox",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "thunderstore",
+            "sourceUrl": "https://thunderstore.io/c/starship/"
+          },
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/21612"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Super Mario 64",
+      "project": "Ghostship",
+      "repository": "harbourmasters/ghostship",
+      "folderName": "SuperMario64-Ghostship",
+      "appIconUrl": "https://raw.githubusercontent.com/HarbourMasters/Ghostship/refs/heads/develop/logo.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "harbour masters",
+        "mario",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ],
+      "mods": {
+        "path": "mods",
+        "sources": [
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/24131"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perfect Dark",
+      "project": "Perfect Dark PC Port",
+      "repository": "perfect-dark-pc-port/perfect_dark",
+      "folderName": "PerfectDark-PerfectDarkPCPort",
+      "appIconUrl": "https://raw.githubusercontent.com/perfect-dark-pc-port/perfect_dark/refs/heads/port/dist/linux/io.github.perfect_dark_pc_port.perfect_dark.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "perfect dark",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Super Mario 64 [Co-op DX]",
+      "project": "Super Mario 64 Co-op DX",
+      "repository": "coop-deluxe/sm64coopdx",
+      "folderName": "SuperMario64-SuperMario64CoopDX",
+      "appIconUrl": "https://raw.githubusercontent.com/coop-deluxe/sm64coopdx/refs/heads/main/res/icon.icon/Assets/icon.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "mario",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Super Smash Bros.",
+      "project": "BattleShip",
+      "repository": "JRickey/BattleShip",
+      "folderName": "SuperSmashBros-BattleShip",
+      "appIconUrl": "https://raw.githubusercontent.com/JRickey/BattleShip/refs/heads/main/assets/icon.ico",
+      "tags": [
+        "decomp",
+        "n64",
+        "super smash bros",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Diddy Kong Racing",
+      "project": "Golden Balloon",
+      "repository": "akratch/goldenballoon",
+      "folderName": "DiddyKongRacing-GoldenBalloon",
+      "appIconUrl": "https://raw.githubusercontent.com/akratch/goldenballoon/refs/heads/main/brand/appicon-source.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "diddy kong racing",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "F-Zero X",
+      "project": "G-Diffuser",
+      "repository": "Zorkats/G-Diffuser",
+      "folderName": "FZeroX-GDiffuser",
+      "appIconUrl": "https://raw.githubusercontent.com/Zorkats/G-Diffuser/refs/heads/main/assets/branding/gdiffuser-icon.png",
+      "tags": [
+        "decomp",
+        "n64",
+        "f-zero",
+        "nintendo",
+        "nintendo 64",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Super Mario World",
+      "project": "snesrev: smw",
+      "repository": "snesrev/smw",
+      "folderName": "SuperMarioWorld-SnesrevSmw",
+      "appIconUrl": "https://raw.githubusercontent.com/snesrev/smw/refs/heads/main/src/platform/switch/icon.jpg",
+      "tags": [
+        "decomp",
+        "snes",
+        "mario",
+        "nintendo",
+        "super nintendo entertainment system",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "project": "snesrev: Zelda 3 Launcher",
+      "repository": "RadzPrower/Zelda-3-Launcher",
+      "folderName": "TheLegendOfZeldaALinkToThePast-SnesrevZelda3Launcher",
+      "appIconUrl": "https://raw.githubusercontent.com/snesrev/zelda3/refs/heads/master/src/platform/win32/triforce.ico",
+      "tags": [
+        "decomp",
+        "snes",
+        "zelda",
+        "nintendo",
+        "super nintendo entertainment system",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Super Metroid",
+      "project": "snesrev: Super Metroid Launcher",
+      "repository": "RadzPrower/Super-Metroid-Launcher",
+      "folderName": "SuperMetroid-SnesrevSuperMetroidLauncher",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/26e3dcb90aa10011db5b660c463f325f/32/256x256.png",
+      "tags": [
+        "decomp",
+        "snes",
+        "metroid",
+        "nintendo",
+        "super nintendo entertainment system",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Pokemon Red / Blue / Yellow",
+      "project": "Gen1RecompProject",
+      "repository": "bryanthaboi/pokemon-gen1-recomp-project",
+      "folderName": "PokemonRedBlueYellow-Gen1RecompProject",
+      "appIconUrl": "https://raw.githubusercontent.com/bryanthaboi/pokemon-gen1-recomp-project/refs/heads/main/assets/logo/gen1recomp_cover.png",
+      "tags": [
+        "recreation",
+        "gb",
+        "pokemon",
+        "nintendo",
+        "game boy"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ],
+      "mods": {
+        "path": "mods",
+        "layout": "folderPerMod",
+        "sources": [
+          {
+            "provider": "gamebanana",
+            "sourceUrl": "https://gamebanana.com/games/25428"
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Legend of Zelda: The Minish Cap",
+      "project": "Project Picori",
+      "repository": "999sian/tmc",
+      "folderName": "TheLegendOfZeldaTheMinishCap-ProjectPicori",
+      "appIconUrl": "https://raw.githubusercontent.com/999sian/tmc/refs/heads/master/docs/picori-logo.png",
+      "tags": [
+        "decomp",
+        "gba",
+        "zelda",
+        "nintendo",
+        "game boy advance",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Animal Crossing",
+      "project": "Animal Crossing PC Port",
+      "repository": "flyngmt/ACGC-PC-Port",
+      "folderName": "AnimalCrossing-AnimalCrossingPCPort",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/e7e0ee2ddc3636ac14f9ca563f15010e.jpg",
+      "tags": [
+        "decomp",
+        "gcn",
+        "animal crossing",
+        "nintendo",
+        "gamecube",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Mario Party 4",
+      "project": "mariopartyrd",
+      "repository": "mariopartyrd/marioparty4",
+      "folderName": "MarioParty4-Mariopartyrd",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/3e60e09c222f206c725385f53d7e567c.png",
+      "tags": [
+        "decomp",
+        "gcn",
+        "mario party",
+        "nintendo",
+        "gamecube",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess",
+      "project": "Dusklight",
+      "repository": "TwilitRealm/dusklight",
+      "folderName": "TheLegendOfZeldaTwilightPrincess-Dusklight",
+      "appIconUrl": "https://raw.githubusercontent.com/TwilitRealm/dusklight/refs/heads/main/res/icon.png",
+      "tags": [
+        "decomp",
+        "gcn",
+        "zelda",
+        "nintendo",
+        "gamecube",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Super Mario Bros. [Remastered]",
+      "project": "Super Mario Bros. Remastered",
+      "repository": "JHDev2006/Super-Mario-Bros.-Remastered-Public",
+      "folderName": "SuperMarioBrosRemastered-SuperMarioBrosRemastered",
+      "appIconUrl": "https://raw.githubusercontent.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/main/icon.png",
+      "tags": [
+        "recreation",
+        "nes",
+        "mario",
+        "nintendo",
+        "nintendo entertainment system"
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Link's Awakening DX [HD Updated]",
+      "project": "LADXHD Updated",
+      "repository": "bighead.0/ladxhd_updated",
+      "repositorySource": "gitlab",
+      "folderName": "TheLegendOfZeldaLinksAwakeningDX-LADXHDUpdated",
+      "appIconUrl": "https://gitlab.com/bighead.0/ladxhd_updated/-/raw/main/icon/windows/Icon.ico",
+      "tags": [
+        "recreation",
+        "gbc",
+        "zelda",
+        "nintendo",
+        "game boy color"
+      ]
+    },
+    {
+      "name": "Sonic and the Secret Rings",
+      "project": "Project Reignition",
+      "repository": "kumapauz/project-reignition",
+      "folderName": "SonicAndTheSecretRings-ProjectReignition",
+      "appIconUrl": "https://raw.githubusercontent.com/kumapauz/project-reignition/refs/heads/dev/v0.5.0/Project/interface/boot/Icon.png",
+      "tags": [
+        "recreation",
+        "wii",
+        "sonic",
+        "nintendo"
+      ]
+    },
+    {
+      "name": "Mega Man X",
+      "project": "Mega Man X SNES Recomp",
+      "repository": "mstan/MegaManXSNESRecomp",
+      "folderName": "MegaManX-MegaManXSNESRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/logo_thumb/2ae549cf604c064a34019c7bd4a81e24.png",
+      "tags": [
+        "recomp",
+        "snes",
+        "megaman",
+        "nintendo",
+        "super nintendo entertainment system",
+        "recompilation"
+      ]
+    }
+  ]
+}

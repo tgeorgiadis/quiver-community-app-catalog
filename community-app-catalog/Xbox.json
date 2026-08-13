@@ -1,0 +1,80 @@
+{
+  "name": "Xbox",
+  "description": "Xbox platform ports and recreations",
+  "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "og xbox",
+    "x360"
+  ],
+  "hiddenTagFilters": [
+    "xbox",
+    "decompilation",
+    "recompilation",
+    "xbox 360"
+  ],
+  "apps": [
+    {
+      "name": "Sonic Unleashed",
+      "project": "Unleashed Recompiled",
+      "repository": "hedge-dev/UnleashedRecomp",
+      "folderName": "SonicUnleashed-UnleashedRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/hedge-dev/UnleashedRecompResources/35322388006365a648f75f4981a496b12a7f7478/images/game_icon.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "sonic",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Skate 3",
+      "project": "Skate 3: Recompiled",
+      "repository": "mchughalex/skate3recomp",
+      "folderName": "Skate3-Skate3Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/mchughalex/skate3recomp/refs/heads/main/banner.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "skate",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "WWE SmackDown vs. Raw 2007",
+      "project": "SVR07-Recomp",
+      "repository": "HollywoodAkeem/SVR07-Recomp",
+      "folderName": "WWESmackDownVsRaw2007-SVR07Recomp",
+      "appIconUrl": "https://raw.githubusercontent.com/HollywoodAkeem/SVR07-Recomp/refs/heads/main/docs/images/logo.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "wwe",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Viva Pinata: Trouble In Paradise",
+      "project": "Viva Pinata: Trouble In Paradise Recompiled",
+      "repository": "SolarCookies/TiP-Recomp",
+      "folderName": "VivaPinataTroubleInParadise-VivaPinataTroubleInParadiseRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/SolarCookies/TiP-Recomp/refs/heads/main/icon/app.ico",
+      "tags": [
+        "recomp",
+        "x360",
+        "viva pinata",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    }
+  ]
+}

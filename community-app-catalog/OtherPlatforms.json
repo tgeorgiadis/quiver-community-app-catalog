@@ -1,0 +1,67 @@
+{
+  "name": "Other Platforms",
+  "description": "Other platform ports and recompilations",
+  "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "pc",
+    "mobile",
+    "gen",
+    "smd"
+  ],
+  "hiddenTagFilters": [
+    "decompilation",
+    "recompilation",
+    "sega genesis",
+    "sega mega drive"
+  ],
+  "apps": [
+    {
+      "name": "Oddworld: Abe's Oddysee and Abe's Exoddus",
+      "project": "R.E.L.I.V.E.",
+      "repository": "AliveTeam/alive_reversing",
+      "folderName": "OddworldAbesOddyseeAndAbesExoddus-RELIVE",
+      "appIconUrl": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/refs/heads/master/Source/relive/app.ico",
+      "tags": [
+        "decomp",
+        "pc",
+        "oddworld",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Sonic the Hedgehog (2013)",
+      "project": "Sonic 1 Forever",
+      "repository": "ElspethThePict/S1Forever",
+      "folderName": "SonicTheHedgehog2013-Sonic1Forever",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon_thumb/7884a9652e94555c70f96b6be63be216.png",
+      "tags": [
+        "decomp",
+        "mobile",
+        "gen",
+        "smd",
+        "sonic",
+        "sega genesis",
+        "sega mega drive",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Sonic 3 & Knuckles",
+      "project": "Sonic 3 A.I.R.",
+      "repository": "Eukaryot/sonic3air",
+      "folderName": "Sonic3Knuckles-Sonic3AIR",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/a70dab11c90d06b809d0be230731762a/32/256x256.png",
+      "tags": [
+        "recreation",
+        "smd",
+        "gen",
+        "sonic",
+        "sega mega drive",
+        "sega genesis"
+      ]
+    }
+  ]
+}

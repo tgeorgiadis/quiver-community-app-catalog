@@ -1,0 +1,141 @@
+{
+  "name": "PlayStation",
+  "description": "PlayStation platform ports and recreations",
+  "version": "1.0.0",
+  "preferredTagFilters": [
+    "recomp",
+    "decomp",
+    "recreation",
+    "ps1",
+    "ps2"
+  ],
+  "hiddenTagFilters": [
+    "playstation",
+    "decompilation",
+    "recompilation",
+    "playstation 1",
+    "playstation 2"
+  ],
+  "apps": [
+    {
+      "name": "Driver 2",
+      "project": "REDRIVER2",
+      "repository": "OpenDriver2/REDRIVER2",
+      "folderName": "Driver2-REDRIVER2",
+      "appIconUrl": "https://github.com/OpenDriver2.png?size=256",
+      "tags": [
+        "decomp",
+        "ps1",
+        "driver",
+        "playstation",
+        "playstation 1",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Crash Team Racing",
+      "project": "CTR Native",
+      "repository": "CTR-tools/ctr-native",
+      "folderName": "CrashTeamRacing-CTRNative",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/0340a3b7dd7a146d0d9a41fa92ce05fa.jpg",
+      "tags": [
+        "decomp",
+        "ps1",
+        "crash",
+        "playstation",
+        "playstation 1",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Wipeout",
+      "project": "Phantom Edition",
+      "repository": "wipeout-phantom-edition/wipeout-phantom-edition",
+      "folderName": "Wipeout-PhantomEdition",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon_thumb/9fcb5252180dc29b22976c5c63b322e7.png",
+      "tags": [
+        "decomp",
+        "ps1",
+        "wipeout",
+        "playstation",
+        "playstation 1",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Legend of Dragoon",
+      "project": "Severed Chains",
+      "repository": "Legend-of-Dragoon-Modding/Severed-Chains",
+      "folderName": "LegendOfDragoon-SeveredChains",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon_thumb/ddc2c94d27d2c6d46b33acf21b21a641.png",
+      "tags": [
+        "decomp",
+        "ps1",
+        "legend of dragoon",
+        "playstation",
+        "playstation 1",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Crash Bandicoot",
+      "project": "Crash Bandicoot Launcher",
+      "repository": "Matteo842/CrashBandicoot-Launcher",
+      "folderName": "CrashBandicoot-CrashBandicootLauncher",
+      "appIconUrl": "https://raw.githubusercontent.com/Matteo842/CrashBandicoot-Launcher/refs/heads/main/icon.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "crash bandicoot",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Castlevania: Symphony of the Night",
+      "project": "SymphonyRecomp",
+      "repository": "BlackLabelHQ/SymphonyRecomp",
+      "folderName": "CastlevaniaSymphonyOfTheNight-SymphonyRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/114f463bf3ee32b2230a1f3e96d94870.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "castlevania",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Syphon Filter",
+      "project": "Syphon Filter PC",
+      "repository": "Madxbio97/SF-pc-port",
+      "folderName": "SyphonFilter-SyphonFilterPC",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/87148bb2a9d56edd463cf584641dd54d.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "syphon filter",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Fatal Frame",
+      "project": "MikuPan",
+      "repository": "Mikompilation/MikuPan",
+      "folderName": "FatalFrame-MikuPan",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/b485dd9ed816f24bcfcc15f8b9cb9075.png",
+      "tags": [
+        "decomp",
+        "ps2",
+        "fatal frame",
+        "playstation",
+        "playstation 2",
+        "decompilation"
+      ]
+    }
+  ]
+}
