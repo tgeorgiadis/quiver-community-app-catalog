@@ -1,11 +1,12 @@
 {
   "name": "Xbox",
   "description": "Xbox platform ports and recreations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "preferredTagFilters": [
     "recomp",
     "decomp",
     "recreation",
+    "rexglue",
     "og xbox",
     "x360"
   ],
@@ -56,6 +57,7 @@
         "recomp",
         "x360",
         "wwe",
+        "rexglue",
         "xbox",
         "xbox 360",
         "recompilation"
@@ -71,6 +73,7 @@
         "recomp",
         "x360",
         "viva pinata",
+        "rexglue",
         "xbox",
         "xbox 360",
         "recompilation"
@@ -86,6 +89,23 @@
         "recomp",
         "x360",
         "silent hill",
+        "rexglue",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Ace Combat 6: Fires of Liberation",
+      "project": "AC6Recomp",
+      "repository": "sal063/AC6_recomp",
+      "folderName": "AceCombat6FiresOfLiberation-AC6Recomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon_thumb/630b572e79b8d37e7dc70a16bd4abaea.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "ace combat",
+        "rexglue",
         "xbox",
         "xbox 360",
         "recompilation"

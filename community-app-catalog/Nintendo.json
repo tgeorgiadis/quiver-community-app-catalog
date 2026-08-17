@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -652,6 +652,21 @@
       ]
     },
     {
+      "name": "Diddy Kong Racing",
+      "project": "DKR-R",
+      "repository": "ThatGuyMcd/DKR-R",
+      "folderName": "DiddyKongRacing-DKRR",
+      "appIconUrl": "https://raw.githubusercontent.com/ThatGuyMcd/DKR-R/refs/heads/main/assets/ui/Icons/diddy_kong_racing_recompiled_ico_by_pooterman.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "diddy kong racing",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
       "name": "F-Zero X",
       "project": "G-Diffuser",
       "repository": "Zorkats/G-Diffuser",
@@ -709,6 +724,20 @@
         "nintendo",
         "super nintendo entertainment system",
         "decompilation"
+      ]
+    },
+    {
+      "name": "Metroid Prime Hunters",
+      "project": "MetroidPrimeHuntersRecomp",
+      "repository": "mstan/MetroidPrimeHuntersRecomp",
+      "folderName": "MetroidPrimeHunters-MetroidPrimeHuntersRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon_thumb/a4dbd8807f9a6cfe63c78e84676df2ee.png",
+      "tags": [
+        "recomp",
+        "nds",
+        "metroid",
+        "nintendo",
+        "recompilation"
       ]
     },
     {
