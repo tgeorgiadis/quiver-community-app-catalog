@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -134,6 +134,21 @@
         "fatal frame",
         "playstation",
         "playstation 2",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Vandal Hearts",
+      "project": "Vandal Hearts PC",
+      "repository": "HalmyLyseas/VandalHearts-PcPort",
+      "folderName": "VandalHearts-VandalHeartsPC",
+      "appIconUrl": "https://raw.githubusercontent.com/HalmyLyseas/VandalHearts-PcPort/refs/heads/master/docs/images/cover-pc-port-small.webp",
+      "tags": [
+        "decomp",
+        "ps1",
+        "vandal hearts",
+        "playstation",
+        "playstation 1",
         "decompilation"
       ]
     }
