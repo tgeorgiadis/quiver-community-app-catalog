@@ -1,7 +1,7 @@
 {
   "name": "Xbox",
   "description": "Xbox platform ports and recreations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -105,6 +105,22 @@
         "recomp",
         "x360",
         "ace combat",
+        "rexglue",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "GoldenEye 007 (XBLA)",
+      "project": "GoldenEye 007 PC Recompilation",
+      "repository": "SunJaycy/GoldenEye-Recomp",
+      "folderName": "GoldenEye007XBLA-GoldenEye007PCRecompilation",
+      "appIconUrl": "https://raw.githubusercontent.com/SunJaycy/GoldenEye-Recomp/refs/heads/main/Icon.ico",
+      "tags": [
+        "recomp",
+        "x360",
+        "james bond",
         "rexglue",
         "xbox",
         "xbox 360",

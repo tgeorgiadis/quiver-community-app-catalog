@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -150,6 +150,65 @@
         "playstation",
         "playstation 1",
         "decompilation"
+      ]
+    },
+    {
+      "name": "Jackie Chan Stuntmaster",
+      "project": "ReChan",
+      "repository": "SilverwireGames/ReChan",
+      "folderName": "JackieChanStuntmaster-ReChan",
+      "appIconUrl": "https://raw.githubusercontent.com/SilverwireGames/ReChan/refs/heads/main/switch/rechan/icon.jpg",
+      "tags": [
+        "recreation",
+        "ps1",
+        "jackie chan",
+        "playstation",
+        "playstation 1"
+      ]
+    },
+    {
+      "name": "Street Fighter Alpha 3",
+      "project": "Street Fighter Alpha 3 Recompiled",
+      "repository": "TechnicallyComputers/Street-Fighter-Alpha-3-Recomp",
+      "folderName": "StreetFighterAlpha3-StreetFighterAlpha3Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/refs/heads/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "street fighter",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Rage Racer",
+      "project": "Rage Racer PC",
+      "repository": "khasinski/rage-racer-pc",
+      "folderName": "RageRacer-RageRacerPC",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/38eef06226c200905c7869da1cad1615.jpg",
+      "tags": [
+        "decomp",
+        "ps1",
+        "rage racer",
+        "playstation",
+        "playstation 1",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Yu-Gi-Oh! Forbidden Memories",
+      "project": "Yu-Gi-Oh! Forbidden Memories - Recompiled",
+      "repository": "Unchiga/YuGiOhForbiddenMemoriesRecomp",
+      "folderName": "YuGiOhForbiddenMemories-YuGiOhForbiddenMemoriesRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/c6027581483c0205dd67edb41b30508d.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "yugioh",
+        "playstation",
+        "playstation 1",
+        "recompilation"
       ]
     }
   ]

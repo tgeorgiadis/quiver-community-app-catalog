@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -31,6 +31,24 @@
     "recompilation"
   ],
   "apps": [
+    {
+      "name": "Automobili Lamborghini",
+      "project": "Automobili Lamborghini: Recompiled",
+      "repository": "alondero/automobililamborghini-recomp",
+      "folderName": "AutomobiliLamborghini-AutomobiliLamborghiniRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/a8308eb391711fe05ae54e2bbcc12d8a.jpg",
+      "tags": [
+        "recomp",
+        "n64",
+        "automobili lamborghini",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
     {
       "name": "Banjo-Kazooie",
       "project": "Banjo: Recompiled",
@@ -649,6 +667,9 @@
         "nintendo",
         "nintendo 64",
         "decompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
       ]
     },
     {
