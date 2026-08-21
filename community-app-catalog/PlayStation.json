@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -206,6 +206,51 @@
         "recomp",
         "ps1",
         "yugioh",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Twisted Metal 4",
+      "project": "TwistedMetal4 Recompiled",
+      "repository": "TechnicallyComputers/TwistedMetal4Recomp",
+      "folderName": "TwistedMetal4-TwistedMetal4Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/TechnicallyComputers/TwistedMetal4Recomp/refs/heads/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "twisted metal",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Mega Man X6",
+      "project": "MegaManX6Recomp",
+      "repository": "mstan/MegaManX6Recomp",
+      "folderName": "MegaManX6-MegaManX6Recomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/df8ca647ec048efd0cd4d6c6363513a7.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "mega man",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Ape Escape",
+      "project": "ApeEscapeRecomp",
+      "repository": "mstan/ApeEscapeRecomp",
+      "folderName": "ApeEscape-ApeEscapeRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/eff9a47e08ddd4b08bdd9f273bffbcac.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "ape escape",
         "playstation",
         "playstation 1",
         "recompilation"

@@ -1,7 +1,7 @@
 {
   "name": "Xbox",
   "description": "Xbox platform ports and recreations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -121,6 +121,22 @@
         "recomp",
         "x360",
         "james bond",
+        "rexglue",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Guitar Hero: Warriors of Rock",
+      "project": "GH: WoR Recompiled",
+      "repository": "ronniecloud/re-wor",
+      "folderName": "GuitarHeroWarriorsOfRock-GHWoRRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/63240353f8a8790dbe8f7bd93b014c1a.jpg",
+      "tags": [
+        "recomp",
+        "x360",
+        "guitar hero",
         "rexglue",
         "xbox",
         "xbox 360",

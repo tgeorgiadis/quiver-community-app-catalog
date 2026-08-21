@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -902,6 +902,111 @@
         "megaman",
         "nintendo",
         "super nintendo entertainment system",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Virtual Pro Wrestling 64",
+      "project": "Virtual Pro Wrestling 64: Recompiled",
+      "repository": "jessetbh/VPW64Recomp",
+      "folderName": "VirtualProWrestling64-VirtualProWrestling64Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/jessetbh/VPW64Recomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "virtual pro wrestling",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "WWF No Mercy",
+      "project": "WWF No Mercy: Recompiled",
+      "repository": "jessetbh/WWFNoMercyRecomp",
+      "folderName": "WWFNoMercy-WWFNoMercyRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/jessetbh/WWFNoMercyRecomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "wwf",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "WWF WrestleMania 2000",
+      "project": "WWF WrestleMania 2000: Recompiled",
+      "repository": "jessetbh/WWFWrestleMania2000Recomp",
+      "folderName": "WWFWrestleMania2000-WWFWrestleMania2000Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/jessetbh/WWFWrestleMania2000Recomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "wwf",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "WCW vs. nWo World Tour",
+      "project": "WCW vs. nWo World Tour: Recompiled",
+      "repository": "jessetbh/WCWvsNWOWorldTourRecomp",
+      "folderName": "WCWVsNWoWorldTour-WCWVsNWoWorldTourRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/jessetbh/WCWvsNWOWorldTourRecomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "wcw nwo",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "WCW/nWo Revenge",
+      "project": "WCW/nWo Revenge: Recompiled",
+      "repository": "jessetbh/WCWnWoRevengeRecomp",
+      "folderName": "WCWNWoRevenge-WCWNWoRevengeRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/jessetbh/WCWnWoRevengeRecomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "wcw nwo",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Virtual Pro Wrestling 2: Ōdō Keishō",
+      "project": "Virtual Pro Wrestling 2: Recompiled",
+      "repository": "jessetbh/VPW2Recomp",
+      "folderName": "VirtualProWrestling2OdoKeisho-VirtualProWrestling2Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/jessetbh/VPW2Recomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "virtual pro wrestling",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Mischief Makers",
+      "project": "Trouble Makers",
+      "repository": "ThiagoLira/trouble-makers-pc-recomp",
+      "folderName": "MischiefMakers-TroubleMakers",
+      "appIconUrl": "https://raw.githubusercontent.com/ThiagoLira/trouble-makers-pc-recomp/refs/heads/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "mischief makers",
+        "nintendo",
+        "nintendo 64",
         "recompilation"
       ]
     }
