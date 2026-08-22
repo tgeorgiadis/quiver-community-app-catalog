@@ -1069,21 +1069,6 @@
         "super nintendo entertainment system",
         "recompilation"
       ]
-    },
-    {
-      "name": "Super Mario World",
-      "project": "SuperMarioWorldRecomp",
-      "repository": "TechnicallyComputers/MetalWarriorsSNESRecomp",
-      "folderName": "SuperMarioWorld-SuperMarioWorldRecomp",
-      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/3a8b781906eaa647a820ba901f9dad36.jpg",
-      "tags": [
-        "recomp",
-        "snes",
-        "mario",
-        "nintendo",
-        "super nintendo entertainment system",
-        "recompilation"
-      ]
     }
   ]
 }
