@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -113,6 +113,21 @@
       "repository": "Madxbio97/SF-pc-port",
       "folderName": "SyphonFilter-SyphonFilterPC",
       "appIconUrl": "https://cdn2.steamgriddb.com/thumb/87148bb2a9d56edd463cf584641dd54d.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "syphon filter",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Syphon Filter 2",
+      "project": "Syphon Filter 2 Recompiled",
+      "repository": "Alexbeav/syphon-filter-2-recompiled",
+      "folderName": "SyphonFilter2-SyphonFilter2Recompiled",
+      "appIconUrl": "https://github.com/Alexbeav/syphon-filter-2-recompiled/raw/main/docs/assets/sf2-recompiled-banner.png",
       "tags": [
         "recomp",
         "ps1",
@@ -251,6 +266,171 @@
         "recomp",
         "ps1",
         "ape escape",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Rampage Through Time",
+      "project": "Rampage Through Time Recompiled",
+      "repository": "TechnicallyComputers/Rampage---Through-Time-Recomp",
+      "folderName": "RampageThroughTime-RampageThroughTimeRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/TechnicallyComputers/Rampage---Through-Time-Recomp/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "rampage",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Star Wars Episode I: Jedi Power Battles",
+      "project": "Star Wars Episode I: Jedi Power Battles Recompiled",
+      "repository": "TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp",
+      "folderName": "StarWarsEpisodeIJediPowerBattles-StarWarsEpisodeIJediPowerBattlesRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "star wars",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Bomberman Fantasy Race",
+      "project": "Bomberman Fantasy Race Recompiled",
+      "repository": "TechnicallyComputers/Bomberman-Fantasy-Race-Recomp",
+      "folderName": "BombermanFantasyRace-BombermanFantasyRaceRecompiled",
+      "appIconUrl": "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/raw/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "bomberman",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Tomba!",
+      "project": "TombaRecomp",
+      "repository": "mstan/TombaRecomp",
+      "folderName": "Tomba-TombaRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/d2266cbbc297cb8f4e96fb08456ac626.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "tomba",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Tomba! 2 - The Evil Swine Return",
+      "project": "Tomba2Recomp",
+      "repository": "mstan/Tomba2Recomp",
+      "folderName": "Tomba2TheEvilSwineReturn-Tomba2Recomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/73569bb65b8de7ab1fd2827d62684ec6.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "tomba",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Metal Slug X",
+      "project": "Metal Slug X Recompiled",
+      "repository": "TechnicallyComputers/Metal-Slug-X-Recomp",
+      "folderName": "MetalSlugX-MetalSlugXRecompiled",
+      "appIconUrl": "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/raw/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "metal slug",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Star Wars: Masters of Teräs Käsi",
+      "project": "MastersOfTerasKasiRecomp",
+      "repository": "TechnicallyComputers/MastersOfTerasKasiRecomp",
+      "folderName": "StarWarsMastersOfTerasKasi-MastersOfTerasKasiRecomp",
+      "appIconUrl": "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/raw/main/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "star wars",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Marvel vs. Capcom: Clash of Super Heroes",
+      "project": "Marvel vs. Capcom: Clash of Super Heroes Recompiled",
+      "repository": "TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp",
+      "folderName": "MarvelVsCapcomClashOfSuperHeroes-MarvelVsCapcomClashOfSuperHeroesRecompiled",
+      "appIconUrl": "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/blob/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "marvel vs capcom",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Klonoa: Door to Phantomile",
+      "project": "Klonoa: Door to Phantomile Recompiled",
+      "repository": "TechnicallyComputers/Klonoa-Door-to-Phantomile",
+      "folderName": "KlonoaDoorToPhantomile-KlonoaDoorToPhantomileRecompiled",
+      "appIconUrl": "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/raw/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "klonoa",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Bomberman World",
+      "project": "Bomberman World Recompiled",
+      "repository": "TechnicallyComputers/Bomberman-World-Recomp",
+      "folderName": "BombermanWorld-BombermanWorldRecompiled",
+      "appIconUrl": "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/raw/master/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "bomberman",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Bomberman Party Edition",
+      "project": "BombermanPartyEditionRecomp",
+      "repository": "TechnicallyComputers/BombermanPartyEditionRecomp",
+      "folderName": "BombermanPartyEdition-BombermanPartyEditionRecomp",
+      "appIconUrl": "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/raw/main/launcher_assets/img/boxart.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "bomberman",
         "playstation",
         "playstation 1",
         "recompilation"

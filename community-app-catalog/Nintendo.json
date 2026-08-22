@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -366,6 +366,51 @@
       ],
       "filesToAdd": [
         "portable.txt"
+      ]
+    },
+    {
+      "name": "Pokemon Emerald",
+      "project": "EmeraldRecomp",
+      "repository": "mstan/EmeraldRecomp",
+      "folderName": "PokemonEmerald-EmeraldRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/19fa7de7038497527f6a88cf1629251d.jpg",
+      "tags": [
+        "recomp",
+        "gba",
+        "pokemon",
+        "nintendo",
+        "game boy advance",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Pokemon FireRed and LeafGreen",
+      "project": "FireRedLeafGreenRecomp",
+      "repository": "mstan/FireRedLeafGreenRecomp",
+      "folderName": "PokemonFireRedAndLeafGreen-FireRedLeafGreenRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/640117fcf8c96f9c290af6bf17b0d947.jpg",
+      "tags": [
+        "recomp",
+        "gba",
+        "pokemon",
+        "nintendo",
+        "game boy advance",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Pokemon Ruby and Sapphire",
+      "project": "RubySapphireRecomp",
+      "repository": "mstan/RubySapphireRecomp",
+      "folderName": "PokemonRubyAndSapphire-RubySapphireRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/1002b558bb5093bf7b4829c35b0bb690.jpg",
+      "tags": [
+        "recomp",
+        "gba",
+        "pokemon",
+        "nintendo",
+        "game boy advance",
+        "recompilation"
       ]
     },
     {
@@ -1007,6 +1052,36 @@
         "mischief makers",
         "nintendo",
         "nintendo 64",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Super Mario World",
+      "project": "SuperMarioWorldRecomp",
+      "repository": "mstan/SuperMarioWorldRecomp",
+      "folderName": "SuperMarioWorld-SuperMarioWorldRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/3a8b781906eaa647a820ba901f9dad36.jpg",
+      "tags": [
+        "recomp",
+        "snes",
+        "mario",
+        "nintendo",
+        "super nintendo entertainment system",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Super Mario World",
+      "project": "SuperMarioWorldRecomp",
+      "repository": "TechnicallyComputers/MetalWarriorsSNESRecomp",
+      "folderName": "SuperMarioWorld-SuperMarioWorldRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/3a8b781906eaa647a820ba901f9dad36.jpg",
+      "tags": [
+        "recomp",
+        "snes",
+        "mario",
+        "nintendo",
+        "super nintendo entertainment system",
         "recompilation"
       ]
     }

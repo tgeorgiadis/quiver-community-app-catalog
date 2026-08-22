@@ -1,7 +1,7 @@
 {
   "name": "Xbox",
   "description": "Xbox platform ports and recreations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -137,6 +137,22 @@
         "recomp",
         "x360",
         "guitar hero",
+        "rexglue",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Project Gotham Racing 4",
+      "project": "PGR4-Recomp",
+      "repository": "beatrixzy/PGR4-Recomp",
+      "folderName": "ProjectGothamRacing4-PGR4Recomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/7c57d0b5b9fab29ba9f3e317cc71033f.jpg",
+      "tags": [
+        "recomp",
+        "x360",
+        "project gotham racing",
         "rexglue",
         "xbox",
         "xbox 360",
