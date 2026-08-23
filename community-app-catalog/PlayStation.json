@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -431,6 +431,21 @@
         "recomp",
         "ps1",
         "bomberman",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Einhänder",
+      "project": "Einhänder Recompiled",
+      "repository": "strider973/Einhander-Recompiled",
+      "folderName": "Einhander-EinhanderRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/2609d515c8f86e7fe0c7a28228a93d45.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "einhander",
         "playstation",
         "playstation 1",
         "recompilation"

@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -1067,6 +1067,22 @@
         "mario",
         "nintendo",
         "super nintendo entertainment system",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Extreme-G",
+      "project": "Extreme-G: Recompiled",
+      "repository": "sonicdcer/ExtremeGRecomp",
+      "repositorySource": "gitlab",
+      "folderName": "ExtremeG-ExtremeGRecompiled",
+      "appIconUrl": "https://gitlab.com/sonicdcer/ExtremeGRecomp/-/raw/main/icons/512.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "extreme g",
+        "nintendo",
+        "nintendo 64",
         "recompilation"
       ]
     }
