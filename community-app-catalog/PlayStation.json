@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -449,6 +449,21 @@
         "playstation",
         "playstation 1",
         "recompilation"
+      ]
+    },
+    {
+      "name": "Silent Hill",
+      "project": "SilentHillNativePCPort",
+      "repository": "SlickAmogus/silent-hill-decomp",
+      "folderName": "SilentHill-SilentHillNativePCPort",
+      "appIconUrl": "https://raw.githubusercontent.com/SlickAmogus/silent-hill-decomp/refs/heads/pc-port/pc_port/res/app_icon.ico",
+      "tags": [
+        "decomp",
+        "ps1",
+        "silent hill",
+        "playstation",
+        "playstation 1",
+        "decompilation"
       ]
     }
   ]
