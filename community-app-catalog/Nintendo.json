@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -807,17 +807,19 @@
       ]
     },
     {
-      "name": "Pokemon Red / Blue / Yellow",
+      "name": "Pokemon Red / Blue / Yellow / Gold / Silver / Crystal",
       "project": "Gen1RecompProject",
       "repository": "bryanthaboi/pokemon-gen1-recomp-project",
-      "folderName": "PokemonRedBlueYellow-Gen1RecompProject",
+      "folderName": "PokemonRedBlueYellowGoldSilverCrystal-Gen1RecompProject",
       "appIconUrl": "https://raw.githubusercontent.com/bryanthaboi/pokemon-gen1-recomp-project/refs/heads/main/assets/logo/gen1recomp_cover.png",
       "tags": [
         "recreation",
         "gb",
+        "gbc",
         "pokemon",
         "nintendo",
-        "game boy"
+        "game boy",
+        "game boy color"
       ],
       "filesToAdd": [
         "portable.txt"
@@ -1083,6 +1085,41 @@
         "extreme g",
         "nintendo",
         "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Donkey Kong 64",
+      "project": "DK64 Rekongpiled",
+      "repository": "Rainchus/Donkey-Kong-64-Recompiled",
+      "folderName": "DonkeyKong64-DK64Rekongpiled",
+      "appIconUrl": "https://raw.githubusercontent.com/Rainchus/Donkey-Kong-64-Recompiled/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "donkey kong",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": [
+        "portable.txt"
+      ]
+    },
+    {
+      "name": "Resident Evil Gaiden",
+      "project": "Resident Evil Gaiden: Recompiled",
+      "repository": "sergiomanzur/regaiden-recomp",
+      "folderName": "ResidentEvilGaiden-ReGaidenRecomp",
+      "appIconUrl": "https://raw.githubusercontent.com/sergiomanzur/regaiden-recomp/refs/heads/master/src/recompiled/icon.ico",
+      "tags": [
+        "recomp",
+        "gbc",
+        "resident evil",
+        "game boy color",
         "recompilation"
       ]
     }
