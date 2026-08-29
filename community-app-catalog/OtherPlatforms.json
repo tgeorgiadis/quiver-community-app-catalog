@@ -1,7 +1,7 @@
 {
   "name": "Other Platforms",
   "description": "Other platform ports and recompilations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -49,18 +49,45 @@
       ]
     },
     {
-      "name": "Sonic 3 & Knuckles",
-      "project": "Sonic 3 A.I.R.",
-      "repository": "Eukaryot/sonic3air",
-      "folderName": "Sonic3Knuckles-Sonic3AIR",
-      "appIconUrl": "https://cdn2.steamgriddb.com/icon/a70dab11c90d06b809d0be230731762a/32/256x256.png",
+      "name": "Doom RPG",
+      "project": "DoomRPG-RE",
+      "repository": "Erick194/DoomRPG-RE",
+      "folderName": "DoomRPG-DoomRPGRE",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/e4cab6f39f345e82e1d6b33090e727e4.jpg",
       "tags": [
-        "recreation",
-        "smd",
-        "gen",
-        "sonic",
-        "sega mega drive",
-        "sega genesis"
+        "decomp",
+        "mobile",
+        "doom",
+        "brew",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Doom II RPG",
+      "project": "DoomIIRPG-RE",
+      "repository": "Erick194/DoomIIRPG-RE",
+      "folderName": "DoomIIRPG-DoomIIRPGRE",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/e2ea312c6c0c186d4cc19a3c51db7e8e.jpg",
+      "tags": [
+        "decomp",
+        "mobile",
+        "doom",
+        "brew",
+        "decompilation"
+      ]
+    },
+    {
+      "name": "Wolfenstein RPG",
+      "project": "WolfensteinRPG-RE",
+      "repository": "Erick194/WolfensteinRPG-RE",
+      "folderName": "WolfensteinRPG-WolfensteinRPGRE",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/8789f10478d60db06c15865d59a1c949.jpg",
+      "tags": [
+        "decomp",
+        "mobile",
+        "wolfenstein",
+        "brew",
+        "decompilation"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "name": "Xbox",
   "description": "Xbox platform ports and recreations",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -153,6 +153,22 @@
         "recomp",
         "x360",
         "project gotham racing",
+        "rexglue",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Blue Dragon",
+      "project": "re:Blue",
+      "repository": "zolaware/reblue",
+      "folderName": "BlueDragon-ReBlue",
+      "appIconUrl": "https://raw.githubusercontent.com/zolaware/reblue/refs/heads/main/res/reblue.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "blue dragon",
         "rexglue",
         "xbox",
         "xbox 360",

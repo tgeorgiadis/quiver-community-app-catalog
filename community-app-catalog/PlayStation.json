@@ -1,20 +1,22 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "preferredTagFilters": [
     "recomp",
     "decomp",
     "recreation",
     "ps1",
-    "ps2"
+    "ps2",
+    "psp"
   ],
   "hiddenTagFilters": [
     "playstation",
     "decompilation",
     "recompilation",
     "playstation 1",
-    "playstation 2"
+    "playstation 2",
+    "playstation portable"
   ],
   "apps": [
     {
@@ -464,6 +466,81 @@
         "playstation",
         "playstation 1",
         "decompilation"
+      ]
+    },
+    {
+      "name": "Legend of Legaia",
+      "project": "Legend of Legaia Recompiled",
+      "repository": "SamSteProjects/legend-of-legaia-recomp",
+      "folderName": "LegendOfLegaia-LegendOfLegaiaRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/f8f3b8bb4532e8324a2a1b22bcc9f0e8.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "legend of legaia",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Tenchu: Stealth Assassins",
+      "project": "Tenchu Recompilation",
+      "repository": "Heromachine/Tenchu-SA-Recomp",
+      "folderName": "TenchuStealthAssassins-TenchuRecompilation",
+      "appIconUrl": "https://raw.githubusercontent.com/Heromachine/Tenchu-SA-Recomp/refs/heads/bootstrap-boots/appimage/TenchuSARecomp.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "tenchu",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Tekken 3",
+      "project": "Tekken3Recomp",
+      "repository": "fabioap-cpu/Tekken3Recomp",
+      "folderName": "Tekken3-Tekken3Recomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/c0d479a62497fc765bf65e3aaa4472fa.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "tekken",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Ace Combat X: Skies of Deception",
+      "project": "Ace Combat X Recompilation",
+      "repository": "sal063/Ace-Combat-X-Recompilation",
+      "folderName": "AceCombatXSkiesOfDeception-AceCombatXRecompilation",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/15d9c83b84cd29117b54859e7aee276a.jpg",
+      "tags": [
+        "recomp",
+        "psp",
+        "ace combat",
+        "playstation",
+        "playstation portable",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "X-Men: Mutant Academy 2",
+      "project": "X-Men: Mutant Academy 2 PC",
+      "repository": "GTTeancum/xmen-mutant-academy-2-pc",
+      "folderName": "XMenMutantAcademy2-XMenMutantAcademy2PC",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/5c6282b6dd6b1675bf53d389e408c3fa.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "xmen",
+        "playstation",
+        "playstation 1",
+        "recompilation"
       ]
     }
   ]
