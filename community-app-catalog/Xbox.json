@@ -1,7 +1,7 @@
 {
   "name": "Xbox",
   "description": "Xbox platform ports and recreations",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -187,6 +187,52 @@
         "condemned",
         "rexglue",
         "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Exit",
+      "project": "EXIT Recomp",
+      "repository": "FluffyQuack/ReXGlue-EXIT",
+      "releaseAssetFilter": "EXIT1",
+      "folderName": "Exit-EXITRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/d232fe00d9b1e56454f2bf0512414a9f.jpg",
+      "tags": [
+        "recomp",
+        "x360",
+        "exit",
+        "xbox",
+        "rexglue",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Exit 2",
+      "project": "EXIT Recomp",
+      "repository": "FluffyQuack/ReXGlue-EXIT",
+      "releaseAssetFilter": "EXIT2",
+      "folderName": "Exit2-EXITRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/7248ca186ad9947e1b1b343c966cf19e.jpg",
+      "tags": [
+        "recomp",
+        "x360",
+        "exit",
+        "xbox",
+        "rexglue",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "UFC Undisputed 3",
+      "project": "UFC 3 Recomp",
+      "repository": "paulogaab21/ufc3recomp",
+      "folderName": "UFCUndisputed3-UFC3Recomp",
+      "appIconUrl": "https://raw.githubusercontent.com/paulogaab21/ufc3recomp/refs/heads/main/launcher/src/ufc3.ico",
+      "tags": [
+        "recomp",
+        "x360",
+        "xbox",
+        "rexglue",
         "recompilation"
       ]
     }
