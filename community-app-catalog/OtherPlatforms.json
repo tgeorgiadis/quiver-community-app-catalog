@@ -1,7 +1,7 @@
 {
   "name": "Other Platforms",
   "description": "Other platform ports and recompilations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -46,6 +46,21 @@
         "sega genesis",
         "sega mega drive",
         "decompilation"
+      ]
+    },
+    {
+      "name": "Sonic 3 & Knuckles",
+      "project": "Sonic 3 A.I.R.",
+      "repository": "Eukaryot/sonic3air",
+      "folderName": "Sonic3Knuckles-Sonic3AIR",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/a70dab11c90d06b809d0be230731762a/32/256x256.png",
+      "tags": [
+        "recreation",
+        "smd",
+        "gen",
+        "sonic",
+        "sega mega drive",
+        "sega genesis"
       ]
     },
     {
