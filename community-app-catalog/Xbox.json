@@ -1,7 +1,7 @@
 {
   "name": "Xbox",
   "description": "Xbox platform ports and recreations",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -231,6 +231,51 @@
       "tags": [
         "recomp",
         "x360",
+        "xbox",
+        "rexglue",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "X-Men: Destiny",
+      "project": "XMD Recompiled",
+      "repository": "florinp93/xmd-recompiled",
+      "folderName": "XMenDestiny-XMDRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/florinp93/xmd-recompiled/refs/heads/main/launcher/assets/xmd_icon.ico",
+      "tags": [
+        "recomp",
+        "x360",
+        "xmen",
+        "xbox",
+        "rexglue",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Dragon Ball Z: Budokai 3 HD",
+      "project": "Budokai 3 HD Recompiled",
+      "repository": "novapowers0/DBZ-Budokai-3-HD-Collection",
+      "folderName": "DragonBallZBudokai3HD-Budokai3HDRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/36245df3a65dcc54d2b9828813913588.jpg",
+      "tags": [
+        "recomp",
+        "x360",
+        "dragon ball",
+        "xbox",
+        "rexglue",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Dante's Inferno",
+      "project": "Dante's Inferno Recompiled",
+      "repository": "florinp93/hells-gate-recomp",
+      "folderName": "DantesInferno-DantesInfernoRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/florinp93/hells-gate-recomp/main/assets/fan_artwork.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "dantes inferno",
         "xbox",
         "rexglue",
         "recompilation"

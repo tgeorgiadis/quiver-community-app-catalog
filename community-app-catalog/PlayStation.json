@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -540,6 +540,22 @@
         "xmen",
         "playstation",
         "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Digimon World",
+      "project": "Digimon World Recompiled",
+      "repository": "ethan4love/psx-recomp-port",
+      "repositorySource": "gitlab",
+      "folderName": "DigimonWorld-DigimonWorldRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/ef6c1b91bb8e82fabc6a3ec6ef41c7c5.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "digimon",
+        "playstation",
+        "psxrecomp",
         "recompilation"
       ]
     }

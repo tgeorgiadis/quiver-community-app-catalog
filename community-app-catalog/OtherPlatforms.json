@@ -1,7 +1,7 @@
 {
   "name": "Other Platforms",
   "description": "Other platform ports and recompilations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -103,6 +103,21 @@
         "wolfenstein",
         "brew",
         "decompilation"
+      ]
+    },
+    {
+      "name": "Initial D Arcade Stage 3",
+      "project": "Initial D Arcade Stage 3 Recompiled",
+      "repository": "distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-",
+      "folderName": "InitialDArcadeStage3-InitialDArcadeStage3Recompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-/refs/heads/main/docs/media/project-logo.png",
+      "tags": [
+        "recomp",
+        "arcade",
+        "naomi2",
+        "sega",
+        "initiald",
+        "recompilation"
       ]
     }
   ]

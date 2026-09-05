@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -1120,6 +1120,35 @@
         "gbc",
         "resident evil",
         "game boy color",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Star Wars: Shadows of the Empire",
+      "project": "Shadows of the Empire Recompiled",
+      "repository": "GTTeancum/SotE-Recomp",
+      "folderName": "StarWarsShadowsOfTheEmpire-ShadowsOfTheEmpireRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/GTTeancum/SotE-Recomp/refs/heads/main/Star%20Wars%20-%20Shadows%20of%20the%20Empire.ico",
+      "tags": [
+        "recomp",
+        "n64",
+        "star wars",
+        "nintendo",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Mario Kart: Super Circuit",
+      "project": "Mario Kart: Super Circuit Recompiled",
+      "repository": "mstan/MarioKartSuperCircuitRecomp",
+      "folderName": "MarioKartSuperCircuit-MarioKartSuperCircuitRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/cfd6c82a2b509c9fde692e0bb068f0c3.jpg",
+      "tags": [
+        "recomp",
+        "gba",
+        "mariokart",
+        "nintendo",
+        "gbarecomp",
         "recompilation"
       ]
     }
