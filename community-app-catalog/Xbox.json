@@ -70,6 +70,22 @@
       "tags": ["recomp", "x360", "sonic", "xbox", "xbox 360", "recompilation"]
     },
     {
+      "name": "Spider-Man: Edge of Time",
+      "project": "Project 2099",
+      "repository": "GenryTheFox0/Project-2099",
+      "folderName": "SpiderManEdgeOfTime-Project2099",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/851f640de10b63d6c366a5ea700c8e8b.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "spider-man",
+        "rexglue",
+        "xbox",
+        "xbox 360",
+        "recompilation"
+      ]
+    },
+    {
       "name": "Deadly Premonition",
       "project": "DPRecomp",
       "repository": "LittleBitUA/DPRecomp",
