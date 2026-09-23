@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: tgeorgiadis/quiver-launcher
-          ref: a77ef4f4409fd998c1e61c9e8ccf21f230dd6c75
+          ref: 2c268eedb2bf7eb0db83bb675774b55577b414bd
           path: launcher
           persist-credentials: false
       - name: Set up .NET
