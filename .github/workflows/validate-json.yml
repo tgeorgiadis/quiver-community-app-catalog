@@ -37,8 +37,6 @@ jobs:
           python scripts/validate-json.py "${json_files[@]}"
 
       - name: Verify production catalog identities
-        env:
-          CATALOG_PRODUCTION_ORIGIN: ${{ vars.CATALOG_PRODUCTION_ORIGIN }}
         shell: bash
         run: |
           python scripts/test-catalog-identities.py

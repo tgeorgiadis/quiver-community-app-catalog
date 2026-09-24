@@ -324,9 +324,8 @@ IDs, duplicate IDs, and IDs whose production repository/provider/install-folder
 binding differs from the proposed entry. Website entries remain drafts until their
 catalog PR is manually merged and its contents verified.
 
-Repository administrators must set the Actions repository variable
-`CATALOG_PRODUCTION_ORIGIN` to the production website's `https://<deployment>.convex.site`
-origin before merging proposals containing IDs. The validation job uses a public,
-read-only identity endpoint, with no website credentials or write tokens. It fails
-closed if the authority cannot be reached. Legacy entries without IDs remain valid
-when this variable is unset.
+The catalog validator checks that website-generated IDs use the production `qcat_`
+UUID format and are unique across the catalog. Issuance and entry binding remain
+owned by the production Convex website; the catalog workflow does not need website
+credentials, an Actions variable, or a network lookup. Legacy entries without IDs
+remain valid.
