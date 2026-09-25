@@ -136,6 +136,69 @@
       "folderName": "ClubPenguin-WaddleForever",
       "appIconUrl": "https://raw.githubusercontent.com/nhaar/Waddle-Forever/refs/heads/main/assets/icon.png",
       "tags": ["recreation", "pc", "club penguin", "recreation"]
+    },
+    {
+      "name": "RollerCoaster Tycoon 2",
+      "project": "OpenRCT2",
+      "repository": "OpenRCT2/OpenRCT2",
+      "folderName": "RollerCoasterTycoon2-OpenRCT2",
+      "appIconUrl": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/5f823fa85d00494b596aa7020c46844166efae08/resources/logo/icon.ico",
+      "tags": ["recreation", "pc", "rollercoaster tycoon"],
+      "catalogId": "qcat_982474da-37b4-432c-b9e6-eff8b4c54c7b"
+    },
+    {
+      "name": "LEGO Island",
+      "project": "isle-portable",
+      "repository": "isledecomp/isle-portable",
+      "folderName": "LEGOIsland-IslePortable",
+      "appIconUrl": "https://raw.githubusercontent.com/isledecomp/isle-portable/377e64799035a0910cc00b179e9bb1033ebab939/packaging/ios/isle/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tags": ["decomp", "pc", "lego", "decompilation"],
+      "catalogId": "qcat_878db0f7-5376-4219-a47a-da56e5cab86b"
+    },
+    {
+      "name": "Cave Story",
+      "project": "doukutsu-rs",
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "folderName": "CaveStory-DoukutsuRs",
+      "appIconUrl": "https://raw.githubusercontent.com/doukutsu-rs/doukutsu-rs/7e6870e55f072e3f056dc1eef3974a1af26c7aae/res/crabsue-icon.ico",
+      "tags": ["recreation", "pc", "cave story"],
+      "catalogId": "qcat_946a441e-2fb8-4e41-b422-ff3b5bddc095"
+    },
+    {
+      "name": "Carmageddon",
+      "project": "Dethrace",
+      "repository": "dethrace-labs/dethrace",
+      "folderName": "Carmageddon-Dethrace",
+      "appIconUrl": "https://raw.githubusercontent.com/dethrace-labs/dethrace/08aa5df3efd159e0d2c8e175f5827a5d248cb09b/packaging/windows/dethrace.ico",
+      "tags": ["decomp", "pc", "carmageddon", "decompilation"],
+      "catalogId": "qcat_88656a6a-bfe2-4f50-839a-8e882cb9ed86"
+    },
+    {
+      "name": "X-COM: Apocalypse",
+      "project": "OpenApoc",
+      "repository": "OpenApoc/OpenApoc",
+      "folderName": "XCOMApocalypse-OpenApoc",
+      "appIconUrl": "https://raw.githubusercontent.com/OpenApoc/OpenApoc/d06cc102905e35d0e703d2d25204fd4ab2795e12/apocicon.ico",
+      "tags": ["recreation", "pc", "x-com"],
+      "catalogId": "qcat_61adaf0b-f9c9-42e1-97d6-e148a207f591"
+    },
+    {
+      "name": "Jazz Jackrabbit",
+      "project": "OpenJazz",
+      "repository": "AlisterT/openjazz",
+      "folderName": "JazzJackrabbit-OpenJazz",
+      "appIconUrl": "https://raw.githubusercontent.com/AlisterT/openjazz/a1626f4edd4a7af72c54103021790c56d8ecfced/res/windows/OpenJazz.ico",
+      "tags": ["recreation", "pc", "jazz jackrabbit"],
+      "catalogId": "qcat_751a9054-5aa4-49cd-a4a3-354f55c84e6c"
+    },
+    {
+      "name": "Command & Conquer: Red Alert, Tiberian Dawn & Dune 2000",
+      "project": "OpenRA",
+      "repository": "OpenRA/OpenRA",
+      "folderName": "CommandConquerRedAlertTiberianDawnDune2000-OpenRA",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon/3a1dd98341fafc1dfe9bcf36360e6b84/32/256x256.png",
+      "tags": ["recreation", "pc", "command & conquer", "dune"],
+      "catalogId": "qcat_5dc886c7-3859-4a66-abde-6585b73a3338"
     }
   ]
 }

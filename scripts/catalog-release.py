@@ -46,6 +46,10 @@ def plan(docs, released):
             raise ValueError(f"Version went backwards: {path}")
         if fingerprint(doc) != previous["sha256"]:
             updates[path] = ".".join(map(str, (current[0], current[1], current[2] + 1)))
+        elif current > old:
+            # Permit an intentional version-only release. The fingerprint excludes
+            # version, so the release state records the requested version.
+            updates[path] = doc["version"]
     result = {path: {**doc, "version": updates.get(path, doc["version"])}
               for path, doc in docs.items()}
     return updates, snapshot(result)

@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "iconUrl": "https://cdn2.steamgriddb.com/icon_thumb/d5fe8b674699f542537c1694284ea239.png",
   "preferredTagFilters": [
     "recomp",
@@ -815,20 +815,6 @@
       ]
     },
     {
-      "name": "Valkyrie Profile",
-      "project": "ValkyrieRecomp",
-      "repository": "Ed1z19/ValkyrieRecomp",
-      "folderName": "ValkyrieProfile-ValkyrieRecomp",
-      "appIconUrl": "https://raw.githubusercontent.com/Ed1z19/ValkyrieRecomp/refs/heads/main/docs/valkyrie-recomp-logo.png",
-      "tags": [
-        "recomp",
-        "ps1",
-        "valkyrie profile",
-        "playstation",
-        "recompilation"
-      ]
-    },
-    {
       "name": "Alien Resurrection",
       "project": "Alien Resurrection Recompiled",
       "repository": "alexbeavs-ps1-ports/alien-resurrection-recomp",
@@ -887,6 +873,22 @@
         "playstation 1",
         "recompilation"
       ]
+    },
+    {
+      "name": "Tomb Raider I-III",
+      "project": "TRX",
+      "repository": "LostArtefacts/TRX",
+      "folderName": "TombRaiderIIII-TRX",
+      "appIconUrl": "https://raw.githubusercontent.com/LostArtefacts/TRX/84100e5617f8864f8e9fadf24eec8f2de91029ff/tools/installer/TRX_Installer/Resources/icon.ico",
+      "tags": [
+        "decomp",
+        "ps1",
+        "tomb raider",
+        "playstation",
+        "playstation 1",
+        "decompilation"
+      ],
+      "catalogId": "qcat_50383a23-47a0-4e6e-ab24-89bd34fb8f78"
     }
   ]
 }

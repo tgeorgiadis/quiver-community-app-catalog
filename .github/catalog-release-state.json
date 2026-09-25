@@ -1,10 +1,10 @@
 {
   "community-app-catalog/Nintendo.json": {
-    "version": "1.0.16",
-    "sha256": "60f9f76e348106e1421b494f7e75fe8a3daddad0dc2afc750d272752596acdb3"
+    "version": "1.0.17",
+    "sha256": "56c10ebde5052907dc45504af484c4f9b62dc68fefeb5914d0f98cb5842d69fd"
   },
   "community-app-catalog/PlayStation.json": {
-    "version": "1.0.14",
+    "version": "1.0.15",
     "sha256": "b1185a03fd70a6334ec14ad9ae3a150cb681fce4d98b3665cf0c54a5d0cd8da0"
   },
   "community-app-catalog/Xbox.json": {

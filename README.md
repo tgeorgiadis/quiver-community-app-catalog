@@ -310,3 +310,22 @@ A successfully checked release with no usable assets is a valid empty result.
 To update the generator, validate its regression tests and generated output first,
 then replace the pinned commit SHA. Publish an initial compatible index before
 releasing a launcher that consumes a new format or selection revision.
+
+
+### Website catalog identity
+
+New website-generated proposals may include an optional `catalogId`, a stable ID
+issued by the **production Quiver Launcher website**. It identifies this particular
+catalog entry (not every game or port sharing a repository). Existing entries do
+not need an ID; this change does not require a backfill.
+
+Do not invent or copy IDs from a development deployment. Validation rejects test
+IDs, duplicate IDs, and IDs whose production repository/provider/install-folder
+binding differs from the proposed entry. Website entries remain drafts until their
+catalog PR is manually merged and its contents verified.
+
+The catalog validator checks that website-generated IDs use the production `qcat_`
+UUID format and are unique across the catalog. Issuance and entry binding remain
+owned by the production Convex website; the catalog workflow does not need website
+credentials, an Actions variable, or a network lookup. Legacy entries without IDs
+remain valid.

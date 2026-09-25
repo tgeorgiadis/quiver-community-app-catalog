@@ -517,6 +517,23 @@
         "xbox 360",
         "recompilation"
       ]
+    },
+    {
+      "name": "LEGO Dimensions",
+      "project": "DimensionsRecomp",
+      "repository": "NeverCookFirst/DimensionsRecomp",
+      "folderName": "LEGODimensions-DimensionsRecomp",
+      "appIconUrl": "https://raw.githubusercontent.com/NeverCookFirst/DimensionsRecomp/84f0a17f3152e6edf4685f1df154db78fcf8e2e0/rexlego/res/discord_cover.png",
+      "tags": [
+        "recomp",
+        "x360",
+        "lego",
+        "xbox",
+        "xbox 360",
+        "recompilation",
+        "rexglue"
+      ],
+      "catalogId": "qcat_67b2b35e-3db2-482f-a9a0-e79aa3eea50e"
     }
   ]
 }

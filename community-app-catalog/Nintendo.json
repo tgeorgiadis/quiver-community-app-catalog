@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "iconUrl": "https://cdn2.steamgriddb.com/icon_thumb/e260cb761dbaa59a1568e65c872a0951.png",
   "preferredTagFilters": [
     "recomp",
@@ -1533,13 +1533,80 @@
       "repository": "riseio/project-bumble",
       "folderName": "BuckBumble-ProjectBumble",
       "appIconUrl": "https://cdn2.steamgriddb.com/thumb/06cf23f9dc49c09112741fcc60c6f6db.jpg",
+      "tags": ["recreation", "n64", "buck bumble", "nintendo", "nintendo 64"]
+    },
+    {
+      "name": "Dr. Mario",
+      "project": "DrMarioNesRecomp",
+      "repository": "mstan/DrMarioNesRecomp",
+      "folderName": "DrMario-DrMarioNesRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/4bf486c3a04b32aa9dec6c542d7011ac.png",
       "tags": [
-        "recreation",
-        "n64",
-        "buck bumble",
+        "recomp",
+        "nes",
+        "mario",
         "nintendo",
-        "nintendo 64"
-      ]
+        "nintendo entertainment system",
+        "recompilation"
+      ],
+      "catalogId": "qcat_c082b5f5-867c-4083-b82b-ff886555120c"
+    },
+    {
+      "name": "Super Smash Bros. Melee",
+      "project": "Melee Unlocked",
+      "repository": "Hero88go/melee-unlocked",
+      "folderName": "SuperSmashBrosMelee-MeleeUnlocked",
+      "appIconUrl": "https://raw.githubusercontent.com/Hero88go/melee-unlocked/4d1aa844e918ca67277fa63d84063577bfc35715/port/app/melee_unlocked.ico",
+      "tags": ["recomp", "gcn", "nintendo", "gamecube", "recompilation"],
+      "catalogId": "qcat_4c4f516b-ae93-422a-9738-e06e7d84bb2e"
+    },
+    {
+      "name": "Dragon Ball Z: Buu's Fury",
+      "project": "Dragon Ball Z: Buu's Fury Recomp",
+      "repository": "mstan/DragonBallZBuusFuryRecomp",
+      "folderName": "DragonBallZBuusFury-DragonBallZBuusFuryRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/9c1aaf0c7323d741035d507cb3fbf529.png",
+      "tags": [
+        "recomp",
+        "gba",
+        "dragon ball",
+        "nintendo",
+        "game boy advance",
+        "recompilation"
+      ],
+      "catalogId": "qcat_902fb62a-ccae-465c-aea9-d1c28c8cb380"
+    },
+    {
+      "name": "Mega Man Zero",
+      "project": "MegaManZeroRecomp",
+      "repository": "mstan/MegaManZeroRecomp",
+      "folderName": "MegaManZero-MegaManZeroRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/1237732c5da246fa3a7fd7e32f33d7eb.png",
+      "tags": [
+        "recomp",
+        "gba",
+        "mega man",
+        "nintendo",
+        "game boy advance",
+        "recompilation"
+      ],
+      "catalogId": "qcat_6b14ef8d-db54-4447-b4ef-705d41918ac5"
+    },
+    {
+      "name": "Super Bomberman",
+      "project": "BombermanRecomp",
+      "repository": "elliotttate/BombermanRecomp",
+      "folderName": "SuperBomberman-BombermanRecomp",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/f68182f0d9f2375e95e95ce760db4b74.png",
+      "tags": [
+        "recomp",
+        "snes",
+        "bomberman",
+        "nintendo",
+        "super nintendo entertainment system",
+        "recompilation"
+      ],
+      "catalogId": "qcat_c3a24354-eda0-4f1c-9a58-3e0729c071d8"
     }
   ]
 }

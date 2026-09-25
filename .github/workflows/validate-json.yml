@@ -6,6 +6,8 @@ on:
       - 'index.json'
       - 'community-app-catalog/**.json'
       - 'scripts/validate-json.py'
+      - 'scripts/validate-catalog-identities.py'
+      - 'scripts/test-catalog-identities.py'
       - '.github/workflows/validate-json.yml'
   workflow_dispatch:
 
@@ -20,6 +22,8 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
@@ -31,6 +35,13 @@ jobs:
         run: |
           mapfile -t json_files < <(git ls-files 'index.json' 'community-app-catalog/*.json')
           python scripts/validate-json.py "${json_files[@]}"
+
+      - name: Verify production catalog identities
+        shell: bash
+        run: |
+          python scripts/test-catalog-identities.py
+          mapfile -t catalogs < <(git ls-files 'community-app-catalog/*.json')
+          python scripts/validate-catalog-identities.py "${catalogs[@]}"
 
       - name: Check changed JSON formatting
         if: github.event_name == 'pull_request'
