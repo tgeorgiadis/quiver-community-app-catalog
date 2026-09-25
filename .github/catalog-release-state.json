@@ -1,18 +1,18 @@
 {
   "community-app-catalog/Nintendo.json": {
-    "version": "1.0.17",
-    "sha256": "56c10ebde5052907dc45504af484c4f9b62dc68fefeb5914d0f98cb5842d69fd"
+    "version": "1.0.18",
+    "sha256": "03219514b1187eb2a1447f299fdc6e15adbb9bf30ec62266dcf1f58d2aa6822b"
   },
   "community-app-catalog/PlayStation.json": {
-    "version": "1.0.15",
-    "sha256": "b1185a03fd70a6334ec14ad9ae3a150cb681fce4d98b3665cf0c54a5d0cd8da0"
+    "version": "1.0.16",
+    "sha256": "7a7660057fe4e310479804a814e627ed4de794061bafd9b0b2609ef79ba314d4"
   },
   "community-app-catalog/Xbox.json": {
-    "version": "1.0.16",
-    "sha256": "5119610cc6d90078821a1b39dc53083035731a4cac24b7205e56380957626af8"
+    "version": "1.0.17",
+    "sha256": "1f5df0fbb8fd6ce6631c9ce4619e4dab28e8263d8a4cccde56c55677768b0c93"
   },
   "community-app-catalog/OtherPlatforms.json": {
-    "version": "1.0.8",
-    "sha256": "d78e36d8f9a3855b423ac9a4e756240207caf5e4a61ff652c5761a1811251400"
+    "version": "1.0.9",
+    "sha256": "1f7b7f8c5b0ac36d8c159c8fe389cef0fe718ee75b2b4ba22ad6a5044d56391d"
   }
 }
