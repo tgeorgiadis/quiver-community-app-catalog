@@ -813,6 +813,80 @@
         "playstation",
         "recompilation"
       ]
+    },
+    {
+      "name": "Valkyrie Profile",
+      "project": "ValkyrieRecomp",
+      "repository": "Ed1z19/ValkyrieRecomp",
+      "folderName": "ValkyrieProfile-ValkyrieRecomp",
+      "appIconUrl": "https://raw.githubusercontent.com/Ed1z19/ValkyrieRecomp/refs/heads/main/docs/valkyrie-recomp-logo.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "valkyrie profile",
+        "playstation",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Alien Resurrection",
+      "project": "Alien Resurrection Recompiled",
+      "repository": "alexbeavs-ps1-ports/alien-resurrection-recomp",
+      "folderName": "AlienResurrection-AlienResurrectionRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/aa077637558e9a40c98567b61502cea7.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "alien",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Crash Bandicoot 3: Warped",
+      "project": "Crash Bandicoot 3: Warped Recompiled",
+      "repository": "alexbeavs-ps1-ports/crash-bandicoot-3-warped-recomp",
+      "folderName": "CrashBandicoot3Warped-CrashBandicoot3WarpedRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/2e02a0ecd0489fd25090bb40edba1068.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "crash bandicoot",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Alone in the Dark: The New Nightmare",
+      "project": "Alone in the Dark: The New Nightmare Recompiled",
+      "repository": "alexbeavs-ps1-ports/alone-in-the-dark-the-new-nightmare-recomp",
+      "folderName": "AloneInTheDarkTheNewNightmare-AloneInTheDarkTheNewNightmareRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/26bafe735adb85af46f83a129a962c7a.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "alone in the dark",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Apocalypse",
+      "project": "Apocalypse Recompiled",
+      "repository": "alexbeavs-ps1-ports/apocalypse-recomp",
+      "folderName": "Apocalypse-ApocalypseRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/257bbd7b56872a2c2907857e48a1ee5d.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "apocalypse",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
     }
   ]
 }
