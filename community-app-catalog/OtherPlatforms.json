@@ -67,6 +67,14 @@
       "tags": ["recreation", "pc", "doom"]
     },
     {
+      "name": "Doom",
+      "project": "UZDoom",
+      "repository": "UZDoom/UZDoom",
+      "folderName": "Doom-UZDoom",
+      "appIconUrl": "https://raw.githubusercontent.com/UZDoom/UZDoom/refs/heads/trunk/branding/UZDoom%20App.svg",
+      "tags": ["recreation", "pc", "doom"]
+    },
+    {
       "name": "Heroes of Might and Magic III",
       "project": "VCMI",
       "repository": "vcmi/vcmi",
