@@ -1,7 +1,7 @@
 {
   "name": "Nintendo",
   "description": "Nintendo platform ports and recreations",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "iconUrl": "https://cdn2.steamgriddb.com/icon_thumb/e260cb761dbaa59a1568e65c872a0951.png",
   "preferredTagFilters": [
     "recomp",
@@ -1615,6 +1615,23 @@
         "recompilation"
       ],
       "catalogId": "qcat_c3a24354-eda0-4f1c-9a58-3e0729c071d8"
+    },
+    {
+      "name": "Tetrisphere",
+      "project": "Blocksphere",
+      "repository": "djultra64/Blocksphere",
+      "folderName": "Tetrisphere-Blocksphere",
+      "appIconUrl": "https://raw.githubusercontent.com/djultra64/Blocksphere/main/assets/branding/tetrisphere-official-icon.png",
+      "releaseAssetFilter": "x86_64",
+      "tags": [
+        "recomp",
+        "n64",
+        "blocksphere",
+        "tetrisphere",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
     }
   ]
 }
