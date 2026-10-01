@@ -501,7 +501,8 @@
         "xbox",
         "xbox 360",
         "recompilation"
-      ]
+      ],
+      "filesToAdd": ["portable.txt"]
     },
     {
       "name": "Lost Odyssey",
