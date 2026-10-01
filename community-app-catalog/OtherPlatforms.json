@@ -51,6 +51,14 @@
       "tags": ["recreation", "pc", "elder scrolls"]
     },
     {
+      "name": "Dig Dug",
+      "project": "Native Port",
+      "repository": "TekRantGaming/digdug-native",
+      "folderName": "DigDug-NativePort",
+      "appIconUrl": "https://raw.githubusercontent.com/TekRantGaming/digdug-native/main/assets/icon.png",
+      "tags": ["arcade", "pc", "namco", "dig dug"]
+    },
+    {
       "name": "Dungeon Keeper",
       "project": "KeeperFX",
       "repository": "dkfans/keeperfx",
