@@ -105,6 +105,22 @@
       ]
     },
     {
+      "name": "Body Harvest",
+      "project": "Body Harvest: Recompiled",
+      "repository": "mcsoderh/BodyHarvestRecomp",
+      "folderName": "BodyHarvest-BodyHarvestRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/mcsoderh/BodyHarvestRecomp/refs/heads/main/icons/app.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "body harvest",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": ["portable.txt"]
+    },
+    {
       "name": "Bomberman 64",
       "project": "Bomberman 64: Recompiled",
       "repository": "RevoSucks/BM64Recomp",
