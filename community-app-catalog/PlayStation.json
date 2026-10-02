@@ -1,7 +1,7 @@
 {
   "name": "PlayStation",
   "description": "PlayStation platform ports and recreations",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "iconUrl": "https://cdn2.steamgriddb.com/icon_thumb/d5fe8b674699f542537c1694284ea239.png",
   "preferredTagFilters": [
     "recomp",
@@ -1038,6 +1038,40 @@
         "playstation",
         "playstation 1",
         "recompilation"
+      ]
+    },
+    {
+      "name": "Serial Experiments Lain",
+      "project": "lain-psx-decompiled",
+      "repository": "Y0oshi/lain-psx-decompiled",
+      "folderName": "SerialExperimentsLain-LainPsxDecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/22746792e03c9fa9a21cb82ee37e8bcc.jpg",
+      "tags": [
+        "decomp",
+        "ps1",
+        "serial experiments lain",
+        "playstation",
+        "playstation 1",
+        "decompilation",
+        "anime"
+      ]
+    },
+    {
+      "name": "Jak and Daxter Trilogy",
+      "project": "OpenGOAL",
+      "repository": "open-goal/launcher",
+      "folderName": "JakAndDaxterTrilogy-OpenGoal",
+      "appIconUrl": "https://cdn2.steamgriddb.com/icon_thumb/48ecd78598456095d654c9196f973b00.png",
+      "tags": [
+        "decomp",
+        "ps2",
+        "jak and daxter",
+        "playstation",
+        "playstation 2",
+        "decompilation",
+        "jak",
+        "jak 2",
+        "jak 3"
       ]
     }
   ]
