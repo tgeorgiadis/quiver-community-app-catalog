@@ -1615,6 +1615,21 @@
         "recompilation"
       ],
       "catalogId": "qcat_c3a24354-eda0-4f1c-9a58-3e0729c071d8"
+    },
+    {
+      "name": "Super Mario Sunshine",
+      "project": "SMS PC Port",
+      "repository": "TekRantGaming/sms-pc-port",
+      "folderName": "SuperMarioSunshine-SMSPCPort",
+      "appIconUrl": "https://raw.githubusercontent.com/TekRantGaming/sms-pc-port/main/packaging/icon.png",
+      "tags": [
+        "decomp",
+        "gcn",
+        "mario",
+        "nintendo",
+        "gamecube",
+        "decompilation"
+      ]
     }
   ]
 }
