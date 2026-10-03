@@ -1615,6 +1615,37 @@
         "recompilation"
       ],
       "catalogId": "qcat_c3a24354-eda0-4f1c-9a58-3e0729c071d8"
+    },
+    {
+      "name": "Conker's Bad Fur Day",
+      "project": "CBFD-Recompiled",
+      "repository": "sciaschi/CBFD-Recompiled",
+      "folderName": "ConkersBadFurDay-CBFD-Recompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/3d1e2c8e4e54933d739bf0186dac5427.jpg",
+      "tags": [
+        "recomp",
+        "n64",
+        "conker",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": ["portable.txt"]
+    },
+    {
+      "name": "Rocket: Robot on Wheels",
+      "project": "Rocket-R",
+      "repository": "ThatGuyMcd/Rocket-R",
+      "folderName": "RocketRobotOnWheels-RocketR",
+      "appIconUrl": "https://cdn2.steamgriddb.com/thumb/2f27ff4393e0a5394244727d3c115bf2.jpg",
+      "tags": [
+        "recomp",
+        "n64",
+        "rocket",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ]
     }
   ]
 }
