@@ -1039,6 +1039,157 @@
         "playstation 1",
         "recompilation"
       ]
+     },
+      {
+      "name": "Azure Dreams",
+      "project": "Azure Dreams Recompiled",
+      "repository": "alexbeavs-ps1-ports/azure-dreams-recomp",
+      "folderName": "AzureDreams-AzureDreamsRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/441fe9001f1151a608b7cb5c1f3c553c.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "azure dreams",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Blood Omen: Legacy of Kain",
+      "project": "Blood Omen: Legacy of Kain Recompiled",
+      "repository": "alexbeavs-ps1-ports/blood-omen-legacy-of-kain-recomp",
+      "folderName": "BloodOmenLegacyOfKain-BloodOmenLegacyOfKainRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/8f1d5b14418e0c356d27dd370a3682d5.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "blood omen",
+        "legacy of kain",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Colony Wars",
+      "project": "Colony Wars Recompiled",
+      "repository": "alexbeavs-ps1-ports/colony-wars-recomp",
+      "folderName": "ColonyWars-ColonyWarsRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/3ea7cf9daf75df88fdb80d1f5fa2de76.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "colony wars",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Colony Wars: Red Sun",
+      "project": "Colony Wars: Red Sun Recompiled",
+      "repository": "alexbeavs-ps1-ports/colony-wars-red-sun-recomp",
+      "folderName": "ColonyWarsRedSun-ColonyWarsRedSunRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/420a155bed9fa0ed9464f63ab5c7af69.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "colony wars",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Destruction Derby 2",
+      "project": "Destruction Derby 2 Recompiled",
+      "repository": "alexbeavs-ps1-ports/destruction-derby-2-recomp",
+      "folderName": "DestructionDerby2-DestructionDerby2Recompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/9def0e264ef933868f044db12d5217cf.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "destruction derby",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Destruction Derby Raw",
+      "project": "Destruction Derby Raw Recompiled",
+      "repository": "alexbeavs-ps1-ports/destruction-derby-raw-recomp",
+      "folderName": "DestructionDerbyRaw-DestructionDerbyRawRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/c800fb92e540d32771c7ec1c6f9daf4b.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "destruction derby",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Devil Dice",
+      "project": "Devil Dice Recompiled",
+      "repository": "alexbeavs-ps1-ports/devil-dice-recomp",
+      "folderName": "DevilDice-DevilDiceRecompiled",
+      "appIconUrl": "hhttps://cdn2.steamgriddb.com/grid/bfb8755427301f4d8f230228180f02d0.jpg",
+      "tags": [
+        "recomp",
+        "ps1",
+        "devil dice",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Die Hard Trilogy",
+      "project": "Die Hard Trilogy Recompiled",
+      "repository": "alexbeavs-ps1-ports/die-hard-trilogy-recomp",
+      "folderName": "DieHardTrilogy-DieHardTrilogyRecompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/7a55f4d968b169f121d4065d15180e22.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "die hard",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Digimon World 2",
+      "project": "Digimon World 2 Recompiled",
+      "repository": "alexbeavs-ps1-ports/digimon-world-2-recomp",
+      "folderName": "DigimonWorld2-DigimonWorld2Recompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/d41bf8642a9eed7374c971f36904e742.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "digimon world",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
+    },
+    {
+      "name": "Dragon Ball Z: Ultimate Battle 22",
+      "project": "Dragon Ball Z: Ultimate Battle 22 Recompiled",
+      "repository": "alexbeavs-ps1-ports/dragon-ball-z-ultimate-battle-22-recomp",
+      "folderName": "DragonBallZUltimateBattle22-DragonBallZUltimateBattle22Recompiled",
+      "appIconUrl": "https://cdn2.steamgriddb.com/grid/f29e20d5613911c9600cdf4f324a44b4.png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "dragon ball z",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
     }
   ]
 }
