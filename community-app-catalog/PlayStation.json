@@ -1039,6 +1039,21 @@
         "playstation 1",
         "recompilation"
       ]
+    },
+    {
+      "name": "Hellnight",
+      "project": "Hellnight Recompiled",
+      "repository": "goodshepherd23/Hellnight-Recompiled",
+      "folderName": "Hellnight-HellnightRecompiled",
+      "appIconUrl": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Hellnight%20(Europe)%20(En%2CFr%2CDe).png",
+      "tags": [
+        "recomp",
+        "ps1",
+        "hellnight",
+        "playstation",
+        "playstation 1",
+        "recompilation"
+      ]
     }
   ]
 }
