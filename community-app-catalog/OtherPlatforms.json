@@ -1,7 +1,7 @@
 {
   "name": "Other Platforms",
   "description": "Other platform ports and recompilations",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "preferredTagFilters": [
     "recomp",
     "decomp",
@@ -74,6 +74,14 @@
       "appIconUrl": "https://raw.githubusercontent.com/vcmi/vcmi/refs/heads/develop/clientapp/icons/vcmi.ico",
       "tags": ["recreation", "pc", "heroes of might and magic"]
     },
+    {
+      "name": "Magic Carpet 2",
+      "project": "Magic Carpet 2 HD",
+      "repository": "thobbsinteractive/magic-carpet-2-hd",
+      "folderName": "MagicCarpet2-MagicCarpet2HD",
+      "appIconUrl": "https://raw.githubusercontent.com/thobbsinteractive/magic-carpet-2-hd/refs/heads/development/remc2/icons/app.ico",
+      "tags": ["recreation", "pc", "magic carpet 2"]
+    },    
     {
       "name": "MechCommander 2",
       "project": "mc2",
