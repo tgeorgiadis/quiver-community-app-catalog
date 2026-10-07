@@ -178,6 +178,22 @@
       "filesToAdd": ["portable.txt"]
     },
     {
+      "name": "Conker's Bad Fur Day",
+      "project": "Conker's Bad Fur Day: Reloaded",
+      "repository": "DahSidiAbdallah/ConkerBFDReloaded",
+      "folderName": "ConkersBadFurDay-ConkersBadFurDayReloaded",
+      "appIconUrl": "https://raw.githubusercontent.com/DahSidiAbdallah/ConkerBFDReloaded/refs/heads/main/host/icon/conker_icon.png",
+      "tags": [
+        "recomp",
+        "n64",
+        "conker",
+        "nintendo",
+        "nintendo 64",
+        "recompilation"
+      ],
+      "filesToAdd": ["portable.txt"]
+    },
+    {
       "name": "Dinosaur Planet",
       "project": "Dinosaur Planet: Recompiled",
       "repository": "DinosaurPlanetRecomp/dino-recomp",
