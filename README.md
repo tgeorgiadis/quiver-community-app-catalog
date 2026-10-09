@@ -12,7 +12,7 @@ ________________
 
 ## ANYTHING BELOW IS NO LONGER RELEVANT
 
-Official community-maintained app catalog for [Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher).
+THE PREVIOUS community-maintained app catalog for [Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher).
 
 Fresh Quiver Launcher installs discover these lists automatically via the remote index. Your local `apps.json` is your library; use **App Catalog → Review** to add apps from a list deliberately.
 
