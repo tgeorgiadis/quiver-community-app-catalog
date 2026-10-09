@@ -1,4 +1,4 @@
-# Quiver Launcher Community App Catalog
+# THIS APP CATALOG REPO IS NOW DEPRECATED! PLEASE CREATE YOUR SUBMISSIONS AT **[quiverlauncher.com/submit](https://quiverlauncher.com/submit)**
 
 > [!IMPORTANT]
 > **This repository is deprecated and no longer accepts submissions.**
@@ -7,6 +7,10 @@
 > New issues and pull requests here will not be reviewed.
 >
 > The catalog files stay in place so existing Quiver Launcher installs keep working.
+
+________________
+
+## ANYTHING BELOW IS NO LONGER RELEVANT
 
 Official community-maintained app catalog for [Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher).
 
