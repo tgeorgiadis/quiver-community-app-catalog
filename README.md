@@ -1,5 +1,13 @@
 # Quiver Launcher Community App Catalog
 
+> [!IMPORTANT]
+> **This repository is deprecated and no longer accepts submissions.**
+>
+> To suggest an app for Quiver Launcher, use **[quiverlauncher.com/submit](https://quiverlauncher.com/submit)**.
+> New issues and pull requests here will not be reviewed.
+>
+> The catalog files stay in place so existing Quiver Launcher installs keep working.
+
 Official community-maintained app catalog for [Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher).
 
 Fresh Quiver Launcher installs discover these lists automatically via the remote index. Your local `apps.json` is your library; use **App Catalog → Review** to add apps from a list deliberately.
@@ -69,15 +77,8 @@ npx --yes prettier@3.5.3 --write index.json community-app-catalog/*.json
 
 ## Contributing
 
-Open a pull request with your app entry in the appropriate brand list file and a version bump. Each app needs:
-
-- `name` — display name
-- `repository` — GitHub repo (`owner/name`)
-- `folderName` — install folder under Quiver Launcher's Apps directory
-- `appIconUrl` — icon URL (optional but recommended)
-- `tags` — searchable tags in the order below (recommended)
-
-Do not include user-local fields like `installPath`, `preferredVersion`, or `skippedUpdateVersion`.
+Submissions are no longer accepted through this repository. Please submit apps at
+[quiverlauncher.com/submit](https://quiverlauncher.com/submit) instead.
 
 ## Naming conventions
 
